@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ed75c113f663b2b4e8905aa54a42eb9a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - horizontalLook: {fileID: -6447783813879403999, guid: 0764088bf368e3a41bb33bc03c6691b6, type: 3}
+  - verticalLook: {fileID: -2937418132634928366, guid: 0764088bf368e3a41bb33bc03c6691b6, type: 3}
+  - cameraTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
