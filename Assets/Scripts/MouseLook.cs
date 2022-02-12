@@ -7,16 +7,21 @@ public class MouseLook : MonoBehaviour
 {
     public InputActionReference horizontalLook;
     public InputActionReference verticalLook;
-    public float lookSpeed = 1f;
+    public float lookSpeed = 0.5f;
     public Transform cameraTransform;
     float pitch;
     float yaw;
+    private Vector3 moveVec;
+    private Rigidbody rb;
+    private float moveSpeed = 10f;
+
     // Start is called before the first frame update
     void Start()
     {
        Cursor.lockState = CursorLockMode.Locked;
        horizontalLook.action.performed += HandleHorizontalLookChange;
        verticalLook.action.performed += HandleVerticalLookChange;
+       rb = this.gameObject.GetComponent<Rigidbody>();
     }
 
     void HandleHorizontalLookChange(InputAction.CallbackContext obj)
@@ -35,5 +40,21 @@ public class MouseLook : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void UpdateMovement()
+    {
+         rb.velocity = moveVec * moveSpeed;
+    }
+
+    private void FixedUpdate()
+    {
+        UpdateMovement();
+    }
+
+    public void OnMove(InputValue input)
+    {
+        Vector2 inputVec = input.Get<Vector2>();
+        moveVec = transform.forward * inputVec.y + transform.right*inputVec.x;
     }
 }
