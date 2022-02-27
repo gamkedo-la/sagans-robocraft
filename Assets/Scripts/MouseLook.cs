@@ -15,6 +15,9 @@ public class MouseLook : MonoBehaviour
     private Rigidbody rb;
     private float moveSpeed = 10f;
 
+    private GameObject droidPartA;
+    private GameObject droidPartB;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,4 +60,13 @@ public class MouseLook : MonoBehaviour
         Vector2 inputVec = input.Get<Vector2>();
         moveVec = transform.forward * inputVec.y + transform.right*inputVec.x;
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "DroidPart")
+        {
+            Debug.Log(other.gameObject.tag);
+        }
+    }
+
 }
