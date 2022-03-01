@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DroidPart : MonoBehaviour
+public class PlayerHand : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,14 @@ public class DroidPart : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Hand Triggered");
+        if (other.gameObject.tag == "Droid Part")
+        {
+            Debug.Log("found droid part");
+        }
     }
 }

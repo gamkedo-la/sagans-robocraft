@@ -61,12 +61,4 @@ public class MouseLook : MonoBehaviour
         moveVec = transform.forward * inputVec.y + transform.right*inputVec.x;
     }
 
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag == "DroidPart")
-        {
-            Debug.Log(other.gameObject.tag);
-        }
-    }
-
 }
