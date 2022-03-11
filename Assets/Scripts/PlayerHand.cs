@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerHand : MonoBehaviour
 {
-    public GameObject touchedObject = null;
-    public bool isGrabbing = false;
+    private GameObject touchedObject = null;
+    private Rigidbody touchedRB = null;
+    private bool isGrabbing = false;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,8 @@ public class PlayerHand : MonoBehaviour
             if (touchedObject.tag == "DroidPart")
             {
                 isGrabbing = true;
+                touchedRB = touchedObject.GetComponent<Rigidbody>();
+                touchedRB.isKinematic = true;
             }
         }
     }
@@ -43,6 +46,7 @@ public class PlayerHand : MonoBehaviour
     public void LetGo()
     {
         isGrabbing = false;
+        touchedRB.isKinematic = false;
     }
 
     private void OnTriggerEnter(Collider other)

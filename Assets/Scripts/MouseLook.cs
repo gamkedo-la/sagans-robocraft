@@ -40,6 +40,7 @@ public class MouseLook : MonoBehaviour
     void HandleVerticalLookChange(InputAction.CallbackContext obj)
     {
         pitch -= obj.ReadValue<float>();
+        pitch = Mathf.Clamp(pitch, -45f, 45f);
         cameraTransform.localRotation = Quaternion.AngleAxis(pitch * lookSpeed, Vector3.right);
     }
 
