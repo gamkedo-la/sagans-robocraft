@@ -6,6 +6,8 @@ public class DroidPart : MonoBehaviour
 {
     public GameObject correctDroidPart;
     private float LOCK_DISTANCE = 0.1f;
+    public bool isLocked = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,11 @@ public class DroidPart : MonoBehaviour
 
     public void checkPosition()
     {
+        if (isLocked)
+        {
+            return;
+        }
+
         float deltaDroidParts = Vector3.Distance(correctDroidPart.transform.position, transform.position);
         Debug.Log(deltaDroidParts);
         if (deltaDroidParts < LOCK_DISTANCE)
@@ -28,6 +35,7 @@ public class DroidPart : MonoBehaviour
 
             Rigidbody rb = gameObject.GetComponent<Rigidbody>();
             rb.isKinematic = true;
+            isLocked = true;
         }
     }
 }

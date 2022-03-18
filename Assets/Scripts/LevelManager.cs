@@ -8,6 +8,9 @@ public class LevelManager : MonoBehaviour
     public int numberOfDroidParts;
     public int numberOfCorrectlyPositionedDroidParts;
 
+    public List<DroidPart> allDroidPart;
+ 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,14 +20,21 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (numberOfCorrectlyPositionedDroidParts == numberOfDroidParts)
+        bool allPartsLocked = true;
+        foreach (var part in allDroidPart)
         {
-            //Debug.Log("WIN");
+            if (part.isLocked == false)
+            {
+                allPartsLocked = false;
+                break;
+            }
+        }
+
+        if (allPartsLocked)
+        {
+            Debug.Log("droid locked!");
+
         }
     }
 
-    public void DroidPartCorrectlyPositioned()
-    {
-        numberOfCorrectlyPositionedDroidParts++;
-    }
 }

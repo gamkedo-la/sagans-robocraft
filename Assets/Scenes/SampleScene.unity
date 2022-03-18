@@ -1580,6 +1580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctDroidPart: {fileID: 1170772978}
+  isLocked: 0
 --- !u!54 &1605085664
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1707,6 +1708,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfDroidParts: 0
   numberOfCorrectlyPositionedDroidParts: 0
+  allDroidPart:
+  - {fileID: 1605085663}
 --- !u!1 &1828832160
 GameObject:
   m_ObjectHideFlags: 0
