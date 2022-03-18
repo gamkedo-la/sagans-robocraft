@@ -16,7 +16,7 @@ public class MouseLook : MonoBehaviour
     float yaw;
     private Vector3 moveVec;
     private Rigidbody rb;
-    private float moveSpeed = 10f;
+    private float moveSpeed = .2f;
 
     private GameObject droidPartA;
     private GameObject droidPartB;

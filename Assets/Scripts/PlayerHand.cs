@@ -46,7 +46,8 @@ public class PlayerHand : MonoBehaviour
     public void LetGo()
     {
         isGrabbing = false;
-        touchedRB.isKinematic = false;
+        touchedRB.isKinematic = false; //check position after this
+        touchedObject.GetComponent<DroidPart>()?.checkPosition();
     }
 
     private void OnTriggerEnter(Collider other)

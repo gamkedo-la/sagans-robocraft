@@ -678,7 +678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &421693328
 Transform:
   m_ObjectHideFlags: 0
@@ -1035,11 +1035,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655210200}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 909036220}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
 --- !u!54 &909036223
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1528,6 +1530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
 --- !u!54 &1170772981
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1633,7 +1636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230934854}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.391, y: 0, z: 1.072}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 780439479}
@@ -1924,6 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 1170772978}
 --- !u!54 &1605085664
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2011,6 +2015,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632698638}
+  - component: {fileID: 1632698639}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -2037,6 +2042,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1632698639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632698637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430a5f7b5863ef14b8c09bb22db969fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfDroidParts: 0
+  numberOfCorrectlyPositionedDroidParts: 0
 --- !u!1 &1828832160
 GameObject:
   m_ObjectHideFlags: 0
