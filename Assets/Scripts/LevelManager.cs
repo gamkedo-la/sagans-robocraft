@@ -5,16 +5,12 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
 
-    public int numberOfDroidParts;
-    public int numberOfCorrectlyPositionedDroidParts;
-
     public List<DroidPart> allDroidPart;
  
 
     // Start is called before the first frame update
     void Start()
     {
-        numberOfCorrectlyPositionedDroidParts = 0;
     }
 
     // Update is called once per frame
