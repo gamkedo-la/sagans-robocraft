@@ -1,10 +1,12 @@
 {
   "dependencies": {
     "com.unity.collab-proxy": {
-      "version": "1.9.0",
+      "version": "1.15.13",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.services.core": "1.0.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -24,7 +26,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.11",
+      "version": "2.0.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -33,7 +35,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -48,6 +50,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.services.core": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.subsystemregistration": {
       "version": "1.0.6",
       "depth": 1,
@@ -56,7 +67,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.29",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -121,7 +132,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.8",
+      "version": "2.1.9",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -131,8 +142,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.1.0",
-      "depth": 0,
+      "version": "4.2.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
@@ -144,11 +155,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "1.10.0",
+      "version": "1.11.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.management": "4.0.1",
+        "com.unity.xr.management": "4.2.0",
         "com.unity.ugui": "1.0.0"
       },
       "url": "https://packages.unity.com"
