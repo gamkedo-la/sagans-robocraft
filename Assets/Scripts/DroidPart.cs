@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class DroidPart : MonoBehaviour
 {
@@ -37,5 +38,15 @@ public class DroidPart : MonoBehaviour
             rb.isKinematic = true;
             isLocked = true;
         }
+    }
+
+    public void deactivate(DeactivateEventArgs args)
+    {
+        Debug.Log("deactivate called");
+    }
+
+    public void selectExit(SelectExitEventArgs args)
+    {
+        Debug.Log("select exit called");
     }
 }
