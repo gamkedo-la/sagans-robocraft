@@ -12,12 +12,13 @@ public class DroidPart : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
     }
 
     public void checkPosition()
@@ -38,15 +39,5 @@ public class DroidPart : MonoBehaviour
             rb.isKinematic = true;
             isLocked = true;
         }
-    }
-
-    public void deactivate(DeactivateEventArgs args)
-    {
-        Debug.Log("deactivate called");
-    }
-
-    public void selectExit(SelectExitEventArgs args)
-    {
-        Debug.Log("select exit called");
     }
 }
