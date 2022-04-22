@@ -1,4 +1,4 @@
-# Droid Factory
+# Sagan's Robocraft
 
 ## Overview
 
@@ -6,17 +6,17 @@ You are a droid repair technician. You must repair and save as many droids as po
 
 Droid parts are 3d objects that must be manipulated and put into place and connected for a droid to be repaired within a time limit.
 
-You can find the pitch deck (WIP) [here](https://docs.google.com/presentation/d/1ZCaA-ro7kMCAXYMbedW2gRCREFg5LVojoRXl9CYmY5A/edit?usp=sharing)
+You can find the pitch deck [here](https://docs.google.com/presentation/d/1ZCaA-ro7kMCAXYMbedW2gRCREFg5LVojoRXl9CYmY5A/edit?usp=sharing)
 
-This is a [HomeTeam GameDev](https://hometeamgamedev.com/) Lighthouse project running from the week of October 17 2021 to the week of January 16 2022
+This is a [HomeTeam GameDev](https://hometeamgamedev.com/) Lighthouse project running from the week of April 17 2022 to the week of August 28 2022
 
 ## Contributor project Info
 
-All contributor project info can be found in the Trello board located [here](https://trello.com/b/ChHHZpQe/droid-factory-pre-pitch)
+All contributor project info can be found in the Trello board located [here](https://trello.com/b/ChHHZpQe/sagans-robocraft)
 
 ## Requirements
 
-- Unity **2020.3.19f1**
+- Unity **Unity 2021.3.0f1**
 
 - Android SDK/NDK
 
@@ -29,6 +29,11 @@ All contributor project info can be found in the Trello board located [here](htt
 ## Unity VR Setup Instructions
 
 All instructions to install Unity and setup the project related to VR are located [here](https://developer.oculus.com/documentation/unity/unity-gs-overview/)
+
+Note: After attempting to go through the above it was easier to following the following tutorials by Ryan Cahela:
+
+[1. Setup Oculus Quest 2 in Unity](https://www.youtube.com/watch?v=SMPf_7uPv-Q)
+[2. Test Unity VR Games w/ No Headset](https://www.youtube.com/watch?v=qtda9kkHQmU)
 
 ### ADB CLI Windows Setup Instructions
 
