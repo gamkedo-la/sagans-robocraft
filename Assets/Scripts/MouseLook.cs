@@ -18,9 +18,6 @@ public class MouseLook : MonoBehaviour
     private Rigidbody rb;
     private float moveSpeed = .2f;
 
-    private GameObject droidPartA;
-    private GameObject droidPartB;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -52,7 +49,6 @@ public class MouseLook : MonoBehaviour
 
     void UpdateMovement()
     {
-        //rb.velocity = moveVec * moveSpeed;
         transform.position += moveVec * moveSpeed * Time.deltaTime;
     }
 
