@@ -1096,7 +1096,7 @@
                     "id": "acd6d203-ef99-4aff-b14f-56ef44e7c13c",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press",
+                    "interactions": "",
                     "initialStateCheck": false
                 }
             ],
@@ -1104,8 +1104,8 @@
                 {
                     "name": "",
                     "id": "cdcd2f17-1082-4a55-b4ec-d3c193d9d707",
-                    "path": "<XRController>/primaryButton",
-                    "interactions": "Press",
+                    "path": "<OpenVROculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "VRChangeDroid",

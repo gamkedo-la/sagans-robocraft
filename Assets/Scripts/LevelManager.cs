@@ -16,11 +16,14 @@ public class LevelManager : MonoBehaviour
     public GameObject targetDroidB;
     public List<DroidPart> allDroidBParts;
 
-    public InputActionReference changeDroidReference;
+    public InputActionReference changeDroidReference = null;
 
     private void Awake()
     {
-        changeDroidReference.action.started += VRChangeDroid;
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            changeDroidReference.action.started += VRChangeDroid;
+        }
     }
 
     // Start is called before the first frame update
@@ -31,8 +34,10 @@ public class LevelManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        changeDroidReference.action.started -= VRChangeDroid;
-
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            changeDroidReference.action.started -= VRChangeDroid;
+        }
     }
 
     // Update is called once per frame
