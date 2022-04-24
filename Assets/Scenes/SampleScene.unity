@@ -1163,6 +1163,7 @@ MonoBehaviour:
   verticalLook: {fileID: -2937418132634928366, guid: 0764088bf368e3a41bb33bc03c6691b6, type: 3}
   lookSpeed: 1
   cameraTransform: {fileID: 780439479}
+  levelManager: {fileID: 0}
 --- !u!54 &1230934860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1582,7 +1583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctDroidPart: {fileID: 0}
+  correctDroidPart: {fileID: 1557478385}
   isLocked: 0
 --- !u!65 &1364237575
 BoxCollider:
@@ -1644,6 +1645,11 @@ Transform:
   m_Father: {fileID: 1828832162}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1557478385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
+  m_PrefabInstance: {fileID: 2130362102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1605085661
 GameObject:
   m_ObjectHideFlags: 0

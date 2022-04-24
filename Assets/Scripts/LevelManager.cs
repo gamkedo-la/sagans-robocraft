@@ -27,21 +27,16 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool allPartsLocked = true;
-        foreach (var part in allDroidPart)
+
+        if (referenceDroidA.activeSelf)
         {
-            if (part.isLocked == false)
-            {
-                allPartsLocked = false;
-                break;
-            }
+            CheckDroidPartsLocked(allDroidAParts);
+        }
+        else
+        {
+            CheckDroidPartsLocked(allDroidBParts);
         }
 
-        if (allPartsLocked)
-        {
-            Debug.Log("droid locked!");
-
-        }
     }
 
     public void ChangeDroid()
@@ -77,6 +72,25 @@ public class LevelManager : MonoBehaviour
         foreach (var part in allDroidBParts)
         {
             part.gameObject.SetActive(isActive);
+        }
+    }
+
+    private void CheckDroidPartsLocked(List<DroidPart> allDroidParts)
+    {
+        bool allPartsLocked = true;
+        foreach (var part in allDroidParts)
+        {
+            if (part.isLocked == false)
+            {
+                allPartsLocked = false;
+                break;
+            }
+        }
+
+        if (allPartsLocked)
+        {
+            Debug.Log("droid locked!");
+
         }
     }
 
