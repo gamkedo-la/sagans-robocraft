@@ -16,11 +16,22 @@ public class LevelManager : MonoBehaviour
     public GameObject targetDroidB;
     public List<DroidPart> allDroidBParts;
 
+    public InputActionReference changeDroidReference;
 
+    private void Awake()
+    {
+        changeDroidReference.action.started += VRChangeDroid;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
+
+    }
+
+    private void OnDestroy()
+    {
+        changeDroidReference.action.started -= VRChangeDroid;
 
     }
 
@@ -92,6 +103,12 @@ public class LevelManager : MonoBehaviour
             Debug.Log("droid locked!");
 
         }
+    }
+
+    private void VRChangeDroid(InputAction.CallbackContext context)
+    {
+        Debug.Log("VR mode?");
+        ChangeDroid();
     }
 
 }
