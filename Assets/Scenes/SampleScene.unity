@@ -449,6 +449,11 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!1 &364808652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
+  m_PrefabInstance: {fileID: 7859114704941354412}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &449566873
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,6 +895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_Name
+      value: RefDroidAHeadPart
+      objectReference: {fileID: 0}
     - target: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
       propertyPath: m_Name
       value: ReferenceExampleDroidA
@@ -1038,6 +1047,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811202368}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &897988913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
+  m_PrefabInstance: {fileID: 2130362102}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &922402677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
+  m_PrefabInstance: {fileID: 1690371977}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &976501740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,99 +1101,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1039790726
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7859114703796870747, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d5cc5d427b1271b479bd78eec0e76d37, type: 2}
-    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.402
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.963
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_Name
-      value: TargetDroidB
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1561017
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.214
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7859114705715644269, guid: 52a153c58a64d68438be373918906f41, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a4c345e5d51cf8f43a9160fe9b476ae9, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 52a153c58a64d68438be373918906f41, type: 3}
+--- !u!1 &1150847175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
+  m_PrefabInstance: {fileID: 785138189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1170772978 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
@@ -1409,6 +1340,263 @@ Transform:
   m_Father: {fileID: 1632698638}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1364237568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1364237569}
+  - component: {fileID: 1364237571}
+  - component: {fileID: 1364237570}
+  - component: {fileID: 1364237573}
+  - component: {fileID: 1364237572}
+  - component: {fileID: 1364237575}
+  - component: {fileID: 1364237574}
+  m_Layer: 0
+  m_Name: DroidBHeadPart
+  m_TagString: DroidPart
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1364237569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364237568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.51912874, y: 1.329098, z: -0.9163086}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1632698638}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1364237570
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364237568}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5cc5d427b1271b479bd78eec0e76d37, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1364237571
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364237568}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1364237572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364237568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 976501741}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1364237574}
+        m_TargetAssemblyTypeName: DroidPart, Assembly-CSharp
+        m_MethodName: checkPosition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 1
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+--- !u!54 &1364237573
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364237568}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1364237574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364237568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+--- !u!65 &1364237575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364237568}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.00000047683716}
 --- !u!1 &1469377264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,7 +1660,7 @@ GameObject:
   - component: {fileID: 1605085663}
   - component: {fileID: 1605085668}
   m_Layer: 6
-  m_Name: Head Cube
+  m_Name: DroidAHeadPart
   m_TagString: DroidPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1746,6 +1934,7 @@ Transform:
   - {fileID: 1295336883}
   - {fileID: 1968464080}
   - {fileID: 1605085662}
+  - {fileID: 1364237569}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1763,6 +1952,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allDroidPart:
   - {fileID: 1605085663}
+  referenceDroidA: {fileID: 1150847175}
+  targetDroidA: {fileID: 364808652}
+  allDroidAParts:
+  - {fileID: 1605085663}
+  referenceDroidB: {fileID: 922402677}
+  targetDroidB: {fileID: 897988913}
+  allDroidBParts:
+  - {fileID: 1364237574}
 --- !u!1001 &1690371977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1774,6 +1971,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d5cc5d427b1271b479bd78eec0e76d37, type: 2}
+    - target: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_Name
+      value: RefDroidBHeadPart
+      objectReference: {fileID: 0}
     - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -2559,6 +2760,107 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!1001 &2130362102
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7859114703796870747, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5cc5d427b1271b479bd78eec0e76d37, type: 2}
+    - target: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_Name
+      value: TargetDroidBHeadPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.462
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.677
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114703796870751, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.963
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_Name
+      value: TargetDroidB
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.115
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.109
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859114705715644269, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4c345e5d51cf8f43a9160fe9b476ae9, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52a153c58a64d68438be373918906f41, type: 3}
 --- !u!1001 &7859114704941354412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2566,6 +2868,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
+      propertyPath: m_Name
+      value: DroidAHeadPartTarget
+      objectReference: {fileID: 0}
     - target: {fileID: 7859114703796870750, guid: 52a153c58a64d68438be373918906f41, type: 3}
       propertyPath: m_IsActive
       value: 0

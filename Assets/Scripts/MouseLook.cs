@@ -18,6 +18,8 @@ public class MouseLook : MonoBehaviour
     private Rigidbody rb;
     private float moveSpeed = .2f;
 
+    public LevelManager levelManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,7 @@ public class MouseLook : MonoBehaviour
        verticalLook.action.performed += HandleVerticalLookChange;
        rb = this.gameObject.GetComponent<Rigidbody>();
        hand = gameObject.GetComponentInChildren<PlayerHand>();
+       levelManager = GameObject.Find("Level").GetComponent<LevelManager>();
     }
 
     void HandleHorizontalLookChange(InputAction.CallbackContext obj)
@@ -63,9 +66,16 @@ public class MouseLook : MonoBehaviour
         moveVec = transform.forward * inputVec.y + transform.right*inputVec.x;
     }
 
+    // space bar pressed
     public void OnGrab(InputValue input)
     {
         hand.Grab();
+    }
+
+    // right arrow pressed
+    public void OnChangeDroid(InputValue input)
+    {
+        levelManager.ChangeDroid();
     }
 
 }
