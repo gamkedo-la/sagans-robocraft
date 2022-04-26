@@ -729,6 +729,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "VRChangeDroid",
+                    "type": "Button",
+                    "id": "9d32d02d-cdce-4ce2-832d-cfe2bac338a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1083,31 +1092,14 @@
                     "action": "UI Press Value",
                     "isComposite": false,
                     "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "Custom",
-            "id": "c3caa087-fe50-428c-b9f8-bf20fcccb951",
-            "actions": [
-                {
-                    "name": "VRChangeDroid",
-                    "type": "Button",
-                    "id": "acd6d203-ef99-4aff-b14f-56ef44e7c13c",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
+                },
                 {
                     "name": "",
-                    "id": "cdcd2f17-1082-4a55-b4ec-d3c193d9d707",
-                    "path": "<OpenVROculusTouchController>{RightHand}/primaryButton",
+                    "id": "9ff416bb-dd62-4d5b-8f83-74df6d183acc",
+                    "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Generic XR Controller",
                     "action": "VRChangeDroid",
                     "isComposite": false,
                     "isPartOfComposite": false
