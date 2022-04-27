@@ -16,7 +16,7 @@ public class MouseLook : MonoBehaviour
     float yaw;
     private Vector3 moveVec;
     private Rigidbody rb;
-    private float moveSpeed = .2f;
+    private float moveSpeed = 2.0f;
 
     public LevelManager levelManager;
 
