@@ -1990,7 +1990,7 @@ MonoBehaviour:
   targetDroidB: {fileID: 897988913}
   allDroidBParts:
   - {fileID: 1364237574}
-  changeDroidReference: {fileID: 0}
+  changeDroidReference: {fileID: 3987049595990654611, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &1690371977
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
 {
 
     public List<DroidPart> allDroidPart;
-    
+
     public GameObject referenceDroidA;
     public GameObject targetDroidA;
     public List<DroidPart> allDroidAParts;
@@ -16,27 +16,14 @@ public class LevelManager : MonoBehaviour
     public GameObject targetDroidB;
     public List<DroidPart> allDroidBParts;
 
-    public InputActionReference changeDroidReference = null;
-
-    private void Awake()
-    {
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            changeDroidReference.action.started += VRChangeDroid;
-        }
-    }
+    public InputActionReference changeDroidReference;
 
     // Start is called before the first frame update
     void Start()
     {
-
-    }
-
-    private void OnDestroy()
-    {
         if (Application.platform == RuntimePlatform.Android)
         {
-            changeDroidReference.action.started -= VRChangeDroid;
+            changeDroidReference.action.performed += VRChangeDroid;
         }
     }
 
@@ -110,7 +97,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    private void VRChangeDroid(InputAction.CallbackContext context)
+    private void VRChangeDroid(InputAction.CallbackContext obj)
     {
         Debug.Log("VR mode?");
         ChangeDroid();
