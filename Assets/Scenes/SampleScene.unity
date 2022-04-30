@@ -973,7 +973,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1632698638}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &489352194
 MeshCollider:
@@ -1346,7 +1346,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1632698638}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &780439478
 GameObject:
@@ -2277,7 +2277,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1632698638}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1331617552
 PrefabInstance:
@@ -3006,9 +3006,9 @@ Transform:
   - {fileID: 913592816}
   - {fileID: 899677557}
   - {fileID: 1215483254}
-  - {fileID: 489352193}
   - {fileID: 705507995}
   - {fileID: 1295336883}
+  - {fileID: 489352193}
   - {fileID: 13461004}
   - {fileID: 1061894006}
   - {fileID: 369421495}
