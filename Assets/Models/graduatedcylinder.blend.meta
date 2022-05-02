@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: GraduatedCylinderGlassMaterial
-    second: {fileID: 2100000, guid: 4ff9d9d3ae509c9448817751f3c885a4, type: 2}
+    second: {fileID: 2100000, guid: 491b7a49b9de4714687617295ce67070, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
