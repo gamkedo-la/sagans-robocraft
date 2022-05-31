@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public string button1SceneName = "SampleScene";
-    public string button2SceneName = "level2";
-    
+    public string button2SceneName = "Options";
+    public string button3SceneName = "Credits";
+
 
     public void onClickButton1()
     {
@@ -17,6 +18,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(this.button2SceneName);
     }
-    
+    public void onClickButton3()
+    {
+        SceneManager.LoadScene(this.button3SceneName);
+    }
+
 
 }
