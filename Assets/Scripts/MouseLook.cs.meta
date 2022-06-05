@@ -7,6 +7,8 @@ MonoImporter:
   - horizontalLook: {fileID: -6447783813879403999, guid: 0764088bf368e3a41bb33bc03c6691b6, type: 3}
   - verticalLook: {fileID: -2937418132634928366, guid: 0764088bf368e3a41bb33bc03c6691b6, type: 3}
   - cameraTransform: {instanceID: 0}
+  - levelManager: {instanceID: 0}
+  - playerStepAudio: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

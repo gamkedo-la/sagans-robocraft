@@ -19,6 +19,7 @@ public class MouseLook : MonoBehaviour
     private float moveSpeed = 4.0f;
 
     public LevelManager levelManager;
+    public AudioSource playerStepAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class MouseLook : MonoBehaviour
        rb = this.gameObject.GetComponent<Rigidbody>();
        hand = gameObject.GetComponentInChildren<PlayerHand>();
        levelManager = GameObject.Find("Level").GetComponent<LevelManager>();
+       playerStepAudio = GameObject.Find("PlayerStepAudio").GetComponent<AudioSource>();
     }
 
     void HandleHorizontalLookChange(InputAction.CallbackContext obj)
@@ -64,6 +66,10 @@ public class MouseLook : MonoBehaviour
     {
         Vector2 inputVec = input.Get<Vector2>();
         moveVec = transform.forward * inputVec.y + transform.right*inputVec.x;
+        if (playerStepAudio != null && !playerStepAudio.isPlaying)
+        {
+            playerStepAudio.Play();
+        }
     }
 
     // space bar pressed
