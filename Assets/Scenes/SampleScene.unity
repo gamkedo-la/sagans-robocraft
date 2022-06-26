@@ -2806,7 +2806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 149548801}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 0.7
   m_EnableStrafe: 1
   m_UseGravity: 0
   m_GravityApplicationMode: 1
