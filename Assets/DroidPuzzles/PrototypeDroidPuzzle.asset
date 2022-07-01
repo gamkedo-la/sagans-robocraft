@@ -17,3 +17,5 @@ MonoBehaviour:
   targetDroid: {fileID: 5940365176514867103, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
   droidPartList:
   - {fileID: 774013122534344577, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
+  referenceDroidPosition: {x: 1.7687162, y: 0.102, z: -0.2790016}
+  targetDroidPosition: {x: 1.047, y: 0.104, z: 0.7}
