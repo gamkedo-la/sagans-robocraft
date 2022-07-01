@@ -30589,7 +30589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430a5f7b5863ef14b8c09bb22db969fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDroidPuzzleArea: {fileID: 0}
   droidPuzzles:
   - {fileID: 11400000, guid: b0cba5754b0e4b74d8103785e083614c, type: 2}
   currentDroidPuzzleIndex: 0

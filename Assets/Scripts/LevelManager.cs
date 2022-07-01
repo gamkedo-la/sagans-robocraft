@@ -5,8 +5,6 @@ using UnityEngine.InputSystem;
 
 public class LevelManager : MonoBehaviour
 {
-
-    public GameObject initialDroidPuzzleArea;
     public List<DroidPuzzle> droidPuzzles;
     public int currentDroidPuzzleIndex;
     public DroidPuzzle currentDroidPuzzle;
@@ -125,6 +123,13 @@ public class LevelManager : MonoBehaviour
 
         this.targetDroid = Instantiate(targetDroid, currentDroidPuzzle.targetDroidPosition, Quaternion.identity);
         this.referenceDroid = Instantiate(referenceDroid, currentDroidPuzzle.referenceDroidPosition, Quaternion.identity);
+
+        int partCounter = 0;
+        foreach (DroidPart part in droidParts)
+        {
+            Instantiate(part, currentDroidPuzzle.droidPartPostions[partCounter], Quaternion.identity);
+            partCounter++;
+        }
     }
 
 }

@@ -13,4 +13,5 @@ public class DroidPuzzle : ScriptableObject
     //init positions
     public Vector3 referenceDroidPosition;
     public Vector3 targetDroidPosition;
+    public List<Vector3> droidPartPostions;
 }
