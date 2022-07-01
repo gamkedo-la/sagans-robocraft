@@ -6,6 +6,13 @@ using UnityEngine.InputSystem;
 public class LevelManager : MonoBehaviour
 {
 
+    public GameObject initialDroidPuzzleArea;
+    public List<DroidPuzzle> droidPuzzles;
+    public int currentDroidPuzzleIndex;
+    public DroidPuzzle currentDroidPuzzle;
+
+    private GameObject targetDroid;
+
     public List<DroidPart> allDroidPart;
 
     public GameObject referenceDroidA;
@@ -25,6 +32,11 @@ public class LevelManager : MonoBehaviour
         {
             changeDroidReference.action.performed += VRChangeDroid;
         }
+
+        currentDroidPuzzleIndex = 0;
+        currentDroidPuzzle = droidPuzzles[currentDroidPuzzleIndex];
+        RenderDroidPuzzle();
+
     }
 
     // Update is called once per frame
@@ -101,6 +113,18 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("VR mode?");
         ChangeDroid();
+    }
+
+
+    public void RenderDroidPuzzle()
+    {
+        GameObject referenceDroid = currentDroidPuzzle.referenceDroid;
+        GameObject targetDroid = currentDroidPuzzle.targetDroid;
+        List<DroidPart> droidParts = currentDroidPuzzle.droidPartList;
+
+        Debug.Log(initialDroidPuzzleArea.transform.position);
+        this.targetDroid = Instantiate(targetDroid, initialDroidPuzzleArea.transform.position, Quaternion.identity);
+        Debug.Log(this.targetDroid.transform.position);
     }
 
 }
