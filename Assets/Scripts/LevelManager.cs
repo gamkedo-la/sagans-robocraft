@@ -123,7 +123,7 @@ public class LevelManager : MonoBehaviour
         List<DroidPart> droidParts = currentDroidPuzzle.droidPartList;
 
         Debug.Log(initialDroidPuzzleArea.transform.position);
-        this.targetDroid = Instantiate(targetDroid, initialDroidPuzzleArea.transform.position, Quaternion.identity);
+        this.targetDroid = Instantiate(targetDroid, initialDroidPuzzleArea.transform.position, initialDroidPuzzleArea.transform.rotation);
         Debug.Log(this.targetDroid.transform.position);
     }
 
