@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour
     public DroidPuzzle currentDroidPuzzle;
 
     private GameObject targetDroid;
+    private GameObject referenceDroid;
 
     public List<DroidPart> allDroidPart;
 
@@ -122,9 +123,8 @@ public class LevelManager : MonoBehaviour
         GameObject targetDroid = currentDroidPuzzle.targetDroid;
         List<DroidPart> droidParts = currentDroidPuzzle.droidPartList;
 
-        Debug.Log(initialDroidPuzzleArea.transform.position);
-        this.targetDroid = Instantiate(targetDroid, initialDroidPuzzleArea.transform.position, initialDroidPuzzleArea.transform.rotation);
-        Debug.Log(this.targetDroid.transform.position);
+        this.targetDroid = Instantiate(targetDroid, currentDroidPuzzle.targetDroidPosition, Quaternion.identity);
+        this.referenceDroid = Instantiate(referenceDroid, currentDroidPuzzle.referenceDroidPosition, Quaternion.identity);
     }
 
 }

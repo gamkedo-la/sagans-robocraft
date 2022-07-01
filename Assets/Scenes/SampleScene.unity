@@ -6175,7 +6175,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1605085663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DroidPart, Assembly-CSharp
         m_MethodName: checkPosition
         m_Mode: 1
@@ -7189,11 +7189,6 @@ Transform:
   m_Father: {fileID: 1632698638}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &421693327 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5940365176514867103, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-  m_PrefabInstance: {fileID: 5940365176399620112}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &422106937
 GameObject:
   m_ObjectHideFlags: 0
@@ -21878,11 +21873,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169110711}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1170772978 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5940365177394232290, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-  m_PrefabInstance: {fileID: 5940365176399620112}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1184927910
 GameObject:
   m_ObjectHideFlags: 0
@@ -25651,7 +25641,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1640859968}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1364237570
 MeshRenderer:
@@ -29900,22 +29890,6 @@ Transform:
   m_Father: {fileID: 74310465}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: -92.787, z: 0}
---- !u!4 &1605085662 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-  m_PrefabInstance: {fileID: 774013124000689758}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1605085663 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 774013122534344577, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-  m_PrefabInstance: {fileID: 774013124000689758}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1609413621
 GameObject:
   m_ObjectHideFlags: 0
@@ -30601,7 +30575,7 @@ Transform:
   - {fileID: 1158242998}
   - {fileID: 80697965}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1632698639
 MonoBehaviour:
@@ -30615,17 +30589,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430a5f7b5863ef14b8c09bb22db969fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDroidPuzzleArea: {fileID: 2035801329}
+  initialDroidPuzzleArea: {fileID: 0}
   droidPuzzles:
   - {fileID: 11400000, guid: b0cba5754b0e4b74d8103785e083614c, type: 2}
   currentDroidPuzzleIndex: 0
   currentDroidPuzzle: {fileID: 0}
   allDroidPart:
-  - {fileID: 1605085663}
-  referenceDroidA: {fileID: 7859114705711450158}
-  targetDroidA: {fileID: 421693327}
+  - {fileID: 0}
+  referenceDroidA: {fileID: 0}
+  targetDroidA: {fileID: 0}
   allDroidAParts:
-  - {fileID: 1605085663}
+  - {fileID: 0}
   referenceDroidB: {fileID: 922402677}
   targetDroidB: {fileID: 897988913}
   allDroidBParts:
@@ -30758,7 +30732,6 @@ Transform:
   m_Children:
   - {fileID: 1968464080}
   - {fileID: 278861474}
-  - {fileID: 1605085662}
   - {fileID: 1364237569}
   - {fileID: 2002432716}
   m_Father: {fileID: 1632698638}
@@ -31672,7 +31645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34071,7 +34044,7 @@ Transform:
   - {fileID: 1469377266}
   - {fileID: 766107330}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 113.7, z: 0}
 --- !u!1 &1834690596
 GameObject:
@@ -36730,7 +36703,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1605085663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DroidPart, Assembly-CSharp
         m_MethodName: checkPosition
         m_Mode: 1
@@ -37631,7 +37604,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1640859968}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2002432717
 AudioSource:
@@ -38254,37 +38227,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033639041}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2035801329
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2035801330}
-  m_Layer: 0
-  m_Name: Initial Droid Puzzle Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2035801330
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2035801329}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.532, y: 0.47, z: -0.633}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2036197973
 GameObject:
   m_ObjectHideFlags: 0
@@ -40626,7 +40568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7859114705061055036, guid: 52a153c58a64d68438be373918906f41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41029,7 +40971,7 @@ Transform:
   - {fileID: 5816055693033790663}
   - {fileID: 2094759369}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &718206981275763502
 Transform:
@@ -41088,71 +41030,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &774013124000689758
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1640859968}
-    m_Modifications:
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.746
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.305
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.754
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344576, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344577, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: correctDroidPart
-      value: 
-      objectReference: {fileID: 1170772978}
-    - target: {fileID: 774013122534344579, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_Name
-      value: DroidAHeadPart
-      objectReference: {fileID: 0}
-    - target: {fileID: 774013122534344634, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 976501741}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
 --- !u!1 &919132149045970257
 GameObject:
   m_ObjectHideFlags: 0
@@ -42216,63 +42093,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1001 &5940365176399620112
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.2800555
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1561017
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.20766342
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867072, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5940365176514867103, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
-      propertyPath: m_Name
-      value: TargetDroidA
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
 --- !u!33 &6095927324474022452
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -42366,7 +42186,7 @@ Transform:
   - {fileID: 8040619998267944383}
   - {fileID: 557340269}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &6681631387583906526
 Transform:
@@ -42555,11 +42375,6 @@ Transform:
   m_Father: {fileID: 1220127957219196826}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7859114705711450158 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2023176516038628035, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-  m_PrefabInstance: {fileID: 8143329998588074733}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &7925827296493825192
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42668,63 +42483,6 @@ Transform:
   m_Father: {fileID: 6674762946873660071}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &8143329998588074733
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2023176516038628035, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_Name
-      value: ReferenceExampleDroidA
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.892
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1561017
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.896
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023176516038628060, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
 --- !u!33 &8155144346971589115
 MeshFilter:
   m_ObjectHideFlags: 0
