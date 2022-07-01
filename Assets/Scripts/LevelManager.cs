@@ -11,16 +11,7 @@ public class LevelManager : MonoBehaviour
 
     private GameObject targetDroid;
     private GameObject referenceDroid;
-
-    public List<DroidPart> allDroidPart;
-
-    public GameObject referenceDroidA;
-    public GameObject targetDroidA;
-    public List<DroidPart> allDroidAParts;
-
-    public GameObject referenceDroidB;
-    public GameObject targetDroidB;
-    public List<DroidPart> allDroidBParts;
+    private List<DroidPart> allDroidParts = new List<DroidPart>();
 
     public InputActionReference changeDroidReference;
 
@@ -41,52 +32,12 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (referenceDroidA.activeSelf)
-        {
-            CheckDroidPartsLocked(allDroidAParts);
-        }
-        else
-        {
-            CheckDroidPartsLocked(allDroidBParts);
-        }
-
+         CheckDroidPartsLocked(allDroidParts);
     }
 
     public void ChangeDroid()
     {
-        if (referenceDroidA.activeSelf)
-        {
-            SetDroidAActive(false);
-            SetDroidBActive(true);
-        } 
-        else if (referenceDroidB.activeSelf)
-        {
-            SetDroidAActive(true);
-            SetDroidBActive(false);
-        }
-    }
-
-    private void SetDroidAActive(bool isActive)
-    {
-        referenceDroidA.SetActive(isActive);
-        targetDroidA.SetActive(isActive);
-
-        foreach (var part in allDroidAParts)
-        {
-            part.gameObject.SetActive(isActive);
-        }
-    }
-
-    private void SetDroidBActive(bool isActive)
-    {
-        referenceDroidB.SetActive(isActive);
-        targetDroidB.SetActive(isActive);
-
-        foreach (var part in allDroidBParts)
-        {
-            part.gameObject.SetActive(isActive);
-        }
+        // TODO: switch based on list of droid puzzles - dynamic support
     }
 
     private void CheckDroidPartsLocked(List<DroidPart> allDroidParts)
@@ -123,11 +74,12 @@ public class LevelManager : MonoBehaviour
 
         this.targetDroid = Instantiate(targetDroid, currentDroidPuzzle.targetDroidPosition, Quaternion.identity);
         this.referenceDroid = Instantiate(referenceDroid, currentDroidPuzzle.referenceDroidPosition, Quaternion.identity);
+        this.allDroidParts.Clear();
 
         int partCounter = 0;
         foreach (DroidPart part in droidParts)
         {
-            Instantiate(part, currentDroidPuzzle.droidPartPostions[partCounter], Quaternion.identity);
+            this.allDroidParts.Add(Instantiate(part, currentDroidPuzzle.droidPartPostions[partCounter], Quaternion.identity));
             partCounter++;
         }
     }

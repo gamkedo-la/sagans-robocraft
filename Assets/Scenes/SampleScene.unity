@@ -17317,11 +17317,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895450732}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &897988913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
-  m_PrefabInstance: {fileID: 2130362102}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &899677556
 GameObject:
   m_ObjectHideFlags: 0
@@ -17927,11 +17922,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf3607ae6db94f1fa8fa9e9f453c420, type: 3}
---- !u!1 &922402677 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7859114705061055011, guid: 52a153c58a64d68438be373918906f41, type: 3}
-  m_PrefabInstance: {fileID: 1690371977}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &925408313
 GameObject:
   m_ObjectHideFlags: 0
@@ -30593,16 +30583,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0cba5754b0e4b74d8103785e083614c, type: 2}
   currentDroidPuzzleIndex: 0
   currentDroidPuzzle: {fileID: 0}
-  allDroidPart:
-  - {fileID: 0}
-  referenceDroidA: {fileID: 0}
-  targetDroidA: {fileID: 0}
-  allDroidAParts:
-  - {fileID: 0}
-  referenceDroidB: {fileID: 922402677}
-  targetDroidB: {fileID: 897988913}
-  allDroidBParts:
-  - {fileID: 1364237574}
   changeDroidReference: {fileID: 3987049595990654611, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1637550298
 GameObject:
