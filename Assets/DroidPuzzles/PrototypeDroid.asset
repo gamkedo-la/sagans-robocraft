@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ceef452efcea1441889d8c3869a5e3a, type: 3}
+  m_Name: PrototypeDroid
+  m_EditorClassIdentifier: 
+  isSolved: 0
+  referenceDroid: {fileID: 2023176516038628035, guid: 26b57d64a032de14b803378b0b859cb6, type: 3}
+  targetDroid: {fileID: 5940365176514867103, guid: 3145895971ff2c247a1ed7ee7e393e84, type: 3}
+  droidPartList:
+  - {fileID: 774013122534344577, guid: 1442b084fdcd70d4698ebd944191a195, type: 3}
