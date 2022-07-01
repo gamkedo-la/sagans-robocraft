@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
 public class LevelManager : MonoBehaviour
 {
     public List<DroidPuzzle> droidPuzzles;
@@ -79,9 +78,22 @@ public class LevelManager : MonoBehaviour
         int partCounter = 0;
         foreach (DroidPart part in droidParts)
         {
-            this.allDroidParts.Add(Instantiate(part, currentDroidPuzzle.droidPartPostions[partCounter], Quaternion.identity));
+            DroidPart instantiatedPart = Instantiate(part, currentDroidPuzzle.droidPartPostions[partCounter], Quaternion.identity);
+            Transform hiddenPartInTarget = FindWithTag(this.targetDroid.transform.root, "DroidPart");
+            instantiatedPart.correctDroidPart = hiddenPartInTarget.gameObject;
+            this.allDroidParts.Add(instantiatedPart);
             partCounter++;
         }
+    }
+
+    // https://gamedev.stackexchange.com/questions/174398/how-find-child-using-tag
+    Transform FindWithTag(Transform root, string tag)
+    {
+        foreach (Transform t in root.GetComponentsInChildren<Transform>())
+        {
+            if (t.CompareTag(tag)) return t;
+        }
+        return null;
     }
 
 }
