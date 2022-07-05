@@ -1,0 +1,55 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.267422042)
+
+newmtl container
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl cover
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl blades
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl tire
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl blender body
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl blender body luci
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl blender body buttons
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl arm
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl main screw
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl bolt
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl screw cross
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl battery cover
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl battery
+kd 0.8 0.8 0.8
+illum 1
+

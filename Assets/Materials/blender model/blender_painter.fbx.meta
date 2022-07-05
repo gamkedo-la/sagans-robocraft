@@ -1,0 +1,1025 @@
+fileFormatVersion: 2
+guid: a2ae96cdb9a437642a117a0a42246b25
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 1990844321672017458
+    second: Container|Battery 1Action
+  - first:
+      74: -2083693797635477062
+    second: Container|Battery CoverAction
+  - first:
+      74: -5815435346009868140
+    second: Container|Battery screw small  cross 2Action
+  - first:
+      74: 7754184497485966952
+    second: Container|Battery screw small  crossAction
+  - first:
+      74: -7436692994164219707
+    second: Container|Battery screw small  crossAction.001
+  - first:
+      74: 8072485238594979587
+    second: Container|BatteryAction
+  - first:
+      74: 6168034850118259824
+    second: Container|BatteryAction.001
+  - first:
+      74: 893669160833511839
+    second: Container|BladesAction
+  - first:
+      74: -5469720327829096259
+    second: Container|Blender BodyAction
+  - first:
+      74: -8899253552968781816
+    second: Container|bolt 2Action
+  - first:
+      74: 8332330630228605464
+    second: Container|boltAction
+  - first:
+      74: -663704309052185310
+    second: Container|ContainerAction
+  - first:
+      74: 9161854612955182613
+    second: Container|CoverAction
+  - first:
+      74: -2829920994784178580
+    second: Container|Cube.008Action.001
+  - first:
+      74: -127051629283109859
+    second: Container|Cube.009Action
+  - first:
+      74: -5161787117361675364
+    second: Container|Left armAction
+  - first:
+      74: 4992274220297156534
+    second: Container|Main screwAction
+  - first:
+      74: 7318038491076329108
+    second: Container|Right armAction
+  - first:
+      74: -326038093840997226
+    second: Container|TiresAction
+  - first:
+      74: 2865933792814563588
+    second: Cover|Battery 1Action
+  - first:
+      74: 8090505693427954019
+    second: Cover|Battery CoverAction
+  - first:
+      74: 7911180937551649183
+    second: Cover|Battery screw small  cross 2Action
+  - first:
+      74: 1150455807651912926
+    second: Cover|Battery screw small  crossAction
+  - first:
+      74: -3287550989038246128
+    second: Cover|Battery screw small  crossAction.001
+  - first:
+      74: 7325897348654891440
+    second: Cover|BatteryAction
+  - first:
+      74: -5676972469717656489
+    second: Cover|BatteryAction.001
+  - first:
+      74: 7140135253401957634
+    second: Cover|BladesAction
+  - first:
+      74: 1203515142527603599
+    second: Cover|Blender BodyAction
+  - first:
+      74: -5385615225059179141
+    second: Cover|bolt 2Action
+  - first:
+      74: 2030213087919925275
+    second: Cover|boltAction
+  - first:
+      74: 280645730655165680
+    second: Cover|ContainerAction
+  - first:
+      74: -7630255723087251635
+    second: Cover|CoverAction
+  - first:
+      74: -320125045697788374
+    second: Cover|Cube.008Action.001
+  - first:
+      74: -2698974269513411417
+    second: Cover|Cube.009Action
+  - first:
+      74: 6371060083465190119
+    second: Cover|Left armAction
+  - first:
+      74: 6792429066553702733
+    second: Cover|Main screwAction
+  - first:
+      74: 5789999747240346608
+    second: Cover|Right armAction
+  - first:
+      74: -7158079293359763594
+    second: Cover|TiresAction
+  - first:
+      74: -6334719908294682869
+    second: Blades|Battery 1Action
+  - first:
+      74: -8391308901534379024
+    second: Blades|Battery CoverAction
+  - first:
+      74: 2362710883019378640
+    second: Blades|Battery screw small  cross 2Action
+  - first:
+      74: -5869177593396727312
+    second: Blades|Battery screw small  crossAction
+  - first:
+      74: 2660182225478924719
+    second: Blades|Battery screw small  crossAction.001
+  - first:
+      74: -2102076500097178980
+    second: Blades|BatteryAction
+  - first:
+      74: 5274575270896894951
+    second: Blades|BatteryAction.001
+  - first:
+      74: -9147428872854579935
+    second: Blades|BladesAction
+  - first:
+      74: 3355625030828531249
+    second: Blades|Blender BodyAction
+  - first:
+      74: 3361242003799795224
+    second: Blades|bolt 2Action
+  - first:
+      74: 2763944739476860332
+    second: Blades|boltAction
+  - first:
+      74: -5322674388033168736
+    second: Blades|ContainerAction
+  - first:
+      74: 1261662980916487221
+    second: Blades|CoverAction
+  - first:
+      74: -6388596204865477816
+    second: Blades|Cube.008Action.001
+  - first:
+      74: -2865202555892676643
+    second: Blades|Cube.009Action
+  - first:
+      74: 5811623847582808357
+    second: Blades|Left armAction
+  - first:
+      74: 3399434152851526702
+    second: Blades|Main screwAction
+  - first:
+      74: 7237611745272387830
+    second: Blades|Right armAction
+  - first:
+      74: 8818374363043955356
+    second: Blades|TiresAction
+  - first:
+      74: -2198482627913527217
+    second: Tires|Battery 1Action
+  - first:
+      74: -3017130904990526185
+    second: Tires|Battery CoverAction
+  - first:
+      74: -401460499227755860
+    second: Tires|Battery screw small  cross 2Action
+  - first:
+      74: -2130707545450133536
+    second: Tires|Battery screw small  crossAction
+  - first:
+      74: -8931574914568652454
+    second: Tires|Battery screw small  crossAction.001
+  - first:
+      74: -8777702333665887481
+    second: Tires|BatteryAction
+  - first:
+      74: 8084986705585453076
+    second: Tires|BatteryAction.001
+  - first:
+      74: -2727271125070623269
+    second: Tires|BladesAction
+  - first:
+      74: -8476852099844008272
+    second: Tires|Blender BodyAction
+  - first:
+      74: -9069458581789229496
+    second: Tires|bolt 2Action
+  - first:
+      74: 507587530431001789
+    second: Tires|boltAction
+  - first:
+      74: 5353870496999732029
+    second: Tires|ContainerAction
+  - first:
+      74: -8357496490414256814
+    second: Tires|CoverAction
+  - first:
+      74: 9135315336359579548
+    second: Tires|Cube.008Action.001
+  - first:
+      74: 7073694122062939674
+    second: Tires|Cube.009Action
+  - first:
+      74: -4629377795083288456
+    second: Tires|Left armAction
+  - first:
+      74: -8317229171257113075
+    second: Tires|Main screwAction
+  - first:
+      74: -5921651662948497876
+    second: Tires|Right armAction
+  - first:
+      74: 3975811359288250310
+    second: Tires|TiresAction
+  - first:
+      74: 136671233105551305
+    second: Blender Body|Battery 1Action
+  - first:
+      74: -8286989898822341742
+    second: Blender Body|Battery CoverAction
+  - first:
+      74: -3045299215715779092
+    second: Blender Body|Battery screw small  cross 2Action
+  - first:
+      74: 1085285307420712344
+    second: Blender Body|Battery screw small  crossAction
+  - first:
+      74: 2839017565180573958
+    second: Blender Body|Battery screw small  crossAction.001
+  - first:
+      74: -238481655309386410
+    second: Blender Body|BatteryAction
+  - first:
+      74: 5847844034358626648
+    second: Blender Body|BatteryAction.001
+  - first:
+      74: 1609407606331234344
+    second: Blender Body|BladesAction
+  - first:
+      74: -3637246983763550209
+    second: Blender Body|Blender BodyAction
+  - first:
+      74: 3400881549872202488
+    second: Blender Body|bolt 2Action
+  - first:
+      74: -3834579916841000439
+    second: Blender Body|boltAction
+  - first:
+      74: 4887343208313225183
+    second: Blender Body|ContainerAction
+  - first:
+      74: 230600454487449994
+    second: Blender Body|CoverAction
+  - first:
+      74: 1753938399177907580
+    second: Blender Body|Cube.008Action.001
+  - first:
+      74: -7124529776683983165
+    second: Blender Body|Cube.009Action
+  - first:
+      74: 1855018670113826906
+    second: Blender Body|Left armAction
+  - first:
+      74: 3938560739589068533
+    second: Blender Body|Main screwAction
+  - first:
+      74: 6424459425940044043
+    second: Blender Body|Right armAction
+  - first:
+      74: -4875414657910966987
+    second: Blender Body|TiresAction
+  - first:
+      74: -8137214745639939329
+    second: Left arm|Battery 1Action
+  - first:
+      74: 8039105917722823695
+    second: Left arm|Battery CoverAction
+  - first:
+      74: -3216461732794098279
+    second: Left arm|Battery screw small  cross 2Action
+  - first:
+      74: 8354744059042767140
+    second: Left arm|Battery screw small  crossAction
+  - first:
+      74: 6540964763307725964
+    second: Left arm|Battery screw small  crossAction.001
+  - first:
+      74: 4427827890443119619
+    second: Left arm|BatteryAction
+  - first:
+      74: -7219480325156765386
+    second: Left arm|BatteryAction.001
+  - first:
+      74: 6054885117075834148
+    second: Left arm|BladesAction
+  - first:
+      74: -8075664972350762147
+    second: Left arm|Blender BodyAction
+  - first:
+      74: -4474226115794214608
+    second: Left arm|bolt 2Action
+  - first:
+      74: 2301042631012835447
+    second: Left arm|boltAction
+  - first:
+      74: -7692391094973823480
+    second: Left arm|ContainerAction
+  - first:
+      74: 6604631151408851727
+    second: Left arm|CoverAction
+  - first:
+      74: 954355743107064647
+    second: Left arm|Cube.008Action.001
+  - first:
+      74: 3048742161322074210
+    second: Left arm|Cube.009Action
+  - first:
+      74: -1725474033358947216
+    second: Left arm|Left armAction
+  - first:
+      74: 3243492118182944917
+    second: Left arm|Main screwAction
+  - first:
+      74: -1996607510544604701
+    second: Left arm|Right armAction
+  - first:
+      74: -5862579093576877627
+    second: Left arm|TiresAction
+  - first:
+      74: -8135710181610554522
+    second: Main screw|Battery 1Action
+  - first:
+      74: -411430899282625676
+    second: Main screw|Battery CoverAction
+  - first:
+      74: -3673011221178825859
+    second: Main screw|Battery screw small  cross 2Action
+  - first:
+      74: -748225233064965879
+    second: Main screw|Battery screw small  crossAction
+  - first:
+      74: 3185048048754880398
+    second: Main screw|Battery screw small  crossAction.001
+  - first:
+      74: 5604962388585640451
+    second: Main screw|BatteryAction
+  - first:
+      74: 7801547198735770708
+    second: Main screw|BatteryAction.001
+  - first:
+      74: 158754896150622971
+    second: Main screw|BladesAction
+  - first:
+      74: -7371278767782129246
+    second: Main screw|Blender BodyAction
+  - first:
+      74: 5487924806144912854
+    second: Main screw|bolt 2Action
+  - first:
+      74: -5586480249736423625
+    second: Main screw|boltAction
+  - first:
+      74: 4556907335110307327
+    second: Main screw|ContainerAction
+  - first:
+      74: -5724901985752780231
+    second: Main screw|CoverAction
+  - first:
+      74: -201807981391064007
+    second: Main screw|Cube.008Action.001
+  - first:
+      74: 3296880992695366523
+    second: Main screw|Cube.009Action
+  - first:
+      74: -5132818882265063481
+    second: Main screw|Left armAction
+  - first:
+      74: -5556322489113237977
+    second: Main screw|Main screwAction
+  - first:
+      74: 1290964970317734541
+    second: Main screw|Right armAction
+  - first:
+      74: -3333938281919289388
+    second: Main screw|TiresAction
+  - first:
+      74: -4741963119854453534
+    second: bolt 2|Battery 1Action
+  - first:
+      74: 6512270579411813349
+    second: bolt 2|Battery CoverAction
+  - first:
+      74: 5872893521992132542
+    second: bolt 2|Battery screw small  cross 2Action
+  - first:
+      74: -4171257818572902998
+    second: bolt 2|Battery screw small  crossAction
+  - first:
+      74: -7341472279549780948
+    second: bolt 2|Battery screw small  crossAction.001
+  - first:
+      74: -3193824350989316737
+    second: bolt 2|BatteryAction
+  - first:
+      74: 6388612650653597192
+    second: bolt 2|BatteryAction.001
+  - first:
+      74: -4644216240556334889
+    second: bolt 2|BladesAction
+  - first:
+      74: 699781493399221399
+    second: bolt 2|Blender BodyAction
+  - first:
+      74: 8368537950512889362
+    second: bolt 2|bolt 2Action
+  - first:
+      74: -8564791211342629674
+    second: bolt 2|boltAction
+  - first:
+      74: 5183401465575819792
+    second: bolt 2|ContainerAction
+  - first:
+      74: -5757113011427626884
+    second: bolt 2|CoverAction
+  - first:
+      74: 377186898277706068
+    second: bolt 2|Cube.008Action.001
+  - first:
+      74: -226530397178789728
+    second: bolt 2|Cube.009Action
+  - first:
+      74: 7662967193579670621
+    second: bolt 2|Left armAction
+  - first:
+      74: 1867579867415095671
+    second: bolt 2|Main screwAction
+  - first:
+      74: 5852424049435101123
+    second: bolt 2|Right armAction
+  - first:
+      74: 1851250507002269279
+    second: bolt 2|TiresAction
+  - first:
+      74: -4798195471654688744
+    second: bolt|Battery 1Action
+  - first:
+      74: -7363656351450131962
+    second: bolt|Battery CoverAction
+  - first:
+      74: 3853153114123829643
+    second: bolt|Battery screw small  cross 2Action
+  - first:
+      74: 8145206822420853850
+    second: bolt|Battery screw small  crossAction
+  - first:
+      74: -9024632815390968887
+    second: bolt|Battery screw small  crossAction.001
+  - first:
+      74: -4561202599114873176
+    second: bolt|BatteryAction
+  - first:
+      74: -8109909203467714106
+    second: bolt|BatteryAction.001
+  - first:
+      74: -244417195136161954
+    second: bolt|BladesAction
+  - first:
+      74: -8653453552522976563
+    second: bolt|Blender BodyAction
+  - first:
+      74: -6891518621133832563
+    second: bolt|bolt 2Action
+  - first:
+      74: -4493663095735971825
+    second: bolt|boltAction
+  - first:
+      74: 7023585380247488358
+    second: bolt|ContainerAction
+  - first:
+      74: -2914436138151539666
+    second: bolt|CoverAction
+  - first:
+      74: 4426063927325483697
+    second: bolt|Cube.008Action.001
+  - first:
+      74: -2576203036946578247
+    second: bolt|Cube.009Action
+  - first:
+      74: -8358635946756569469
+    second: bolt|Left armAction
+  - first:
+      74: -8009522559124930859
+    second: bolt|Main screwAction
+  - first:
+      74: -4083778096546703139
+    second: bolt|Right armAction
+  - first:
+      74: -8259490499198410713
+    second: bolt|TiresAction
+  - first:
+      74: -5165826763646783566
+    second: Right arm|Battery 1Action
+  - first:
+      74: -7367072290316201196
+    second: Right arm|Battery CoverAction
+  - first:
+      74: 9146330209142456503
+    second: Right arm|Battery screw small  cross 2Action
+  - first:
+      74: 7853155265698836332
+    second: Right arm|Battery screw small  crossAction
+  - first:
+      74: 2832897979660133305
+    second: Right arm|Battery screw small  crossAction.001
+  - first:
+      74: -3958996992862254718
+    second: Right arm|BatteryAction
+  - first:
+      74: 4942780839055159710
+    second: Right arm|BatteryAction.001
+  - first:
+      74: 2370139422676106627
+    second: Right arm|BladesAction
+  - first:
+      74: 8682192873567960425
+    second: Right arm|Blender BodyAction
+  - first:
+      74: -8593273630793425974
+    second: Right arm|bolt 2Action
+  - first:
+      74: -8271242104232518750
+    second: Right arm|boltAction
+  - first:
+      74: -5627209827306034733
+    second: Right arm|ContainerAction
+  - first:
+      74: 8547165676208522701
+    second: Right arm|CoverAction
+  - first:
+      74: -8005050146729608999
+    second: Right arm|Cube.008Action.001
+  - first:
+      74: -9203240230284379597
+    second: Right arm|Cube.009Action
+  - first:
+      74: -7112249051255399366
+    second: Right arm|Left armAction
+  - first:
+      74: 8653761077432878934
+    second: Right arm|Main screwAction
+  - first:
+      74: -1710371022545896610
+    second: Right arm|Right armAction
+  - first:
+      74: 6381098409013615749
+    second: Right arm|TiresAction
+  - first:
+      74: 8598777524716514772
+    second: Battery screw small  cross|Battery 1Action
+  - first:
+      74: 8507895482537539472
+    second: Battery screw small  cross|Battery CoverAction
+  - first:
+      74: -1347591221674260175
+    second: Battery screw small  cross|Battery screw small  cross 2Action
+  - first:
+      74: 7903651081119413008
+    second: Battery screw small  cross|Battery screw small  crossAction
+  - first:
+      74: 849197496379408464
+    second: Battery screw small  cross|Battery screw small  crossAction.001
+  - first:
+      74: 1458145761048558576
+    second: Battery screw small  cross|BatteryAction
+  - first:
+      74: -6616856400768028970
+    second: Battery screw small  cross|BatteryAction.001
+  - first:
+      74: 5424201415277577600
+    second: Battery screw small  cross|BladesAction
+  - first:
+      74: 6839807881450178743
+    second: Battery screw small  cross|Blender BodyAction
+  - first:
+      74: -1530154789686220791
+    second: Battery screw small  cross|bolt 2Action
+  - first:
+      74: -2316053424820978952
+    second: Battery screw small  cross|boltAction
+  - first:
+      74: 2016985470540809651
+    second: Battery screw small  cross|ContainerAction
+  - first:
+      74: 1448927527253766278
+    second: Battery screw small  cross|CoverAction
+  - first:
+      74: -8676988184299952405
+    second: Battery screw small  cross|Cube.008Action.001
+  - first:
+      74: 5208846724577010912
+    second: Battery screw small  cross|Cube.009Action
+  - first:
+      74: -2640082832400472829
+    second: Battery screw small  cross|Left armAction
+  - first:
+      74: -5020268735608520389
+    second: Battery screw small  cross|Main screwAction
+  - first:
+      74: 3340401925424007371
+    second: Battery screw small  cross|Right armAction
+  - first:
+      74: -8340318319466423340
+    second: Battery screw small  cross|TiresAction
+  - first:
+      74: 2632891656896794542
+    second: Battery Cover|Battery 1Action
+  - first:
+      74: -2032150486781541701
+    second: Battery Cover|Battery CoverAction
+  - first:
+      74: 7071953220570627889
+    second: Battery Cover|Battery screw small  cross 2Action
+  - first:
+      74: -4435138887912479717
+    second: Battery Cover|Battery screw small  crossAction
+  - first:
+      74: 7994576776328722753
+    second: Battery Cover|Battery screw small  crossAction.001
+  - first:
+      74: 4422407153325732294
+    second: Battery Cover|BatteryAction
+  - first:
+      74: 7399968560208121104
+    second: Battery Cover|BatteryAction.001
+  - first:
+      74: -4569140090473738438
+    second: Battery Cover|BladesAction
+  - first:
+      74: -2319937207966973122
+    second: Battery Cover|Blender BodyAction
+  - first:
+      74: -4337937808806796682
+    second: Battery Cover|bolt 2Action
+  - first:
+      74: 305766423808437771
+    second: Battery Cover|boltAction
+  - first:
+      74: -7228537564904376173
+    second: Battery Cover|ContainerAction
+  - first:
+      74: 85848974411002146
+    second: Battery Cover|CoverAction
+  - first:
+      74: -258209360884516121
+    second: Battery Cover|Cube.008Action.001
+  - first:
+      74: 1148405199476333363
+    second: Battery Cover|Cube.009Action
+  - first:
+      74: 7607807074749496558
+    second: Battery Cover|Left armAction
+  - first:
+      74: 269070755905162344
+    second: Battery Cover|Main screwAction
+  - first:
+      74: 5334025770131710422
+    second: Battery Cover|Right armAction
+  - first:
+      74: 5682428111303174441
+    second: Battery Cover|TiresAction
+  - first:
+      74: 5085330222119932269
+    second: Battery|Battery 1Action
+  - first:
+      74: 2112694565124736787
+    second: Battery|Battery CoverAction
+  - first:
+      74: 7591942305135152283
+    second: Battery|Battery screw small  cross 2Action
+  - first:
+      74: 3678188132431327474
+    second: Battery|Battery screw small  crossAction
+  - first:
+      74: -5664732694995802343
+    second: Battery|Battery screw small  crossAction.001
+  - first:
+      74: -5091607491843013088
+    second: Battery|BatteryAction
+  - first:
+      74: 8976277989191903867
+    second: Battery|BatteryAction.001
+  - first:
+      74: 315433621017495381
+    second: Battery|BladesAction
+  - first:
+      74: -4559035869806693499
+    second: Battery|Blender BodyAction
+  - first:
+      74: -7882784869788915952
+    second: Battery|bolt 2Action
+  - first:
+      74: -5399687636956135066
+    second: Battery|boltAction
+  - first:
+      74: -4993103227073508438
+    second: Battery|ContainerAction
+  - first:
+      74: -1032987985544280325
+    second: Battery|CoverAction
+  - first:
+      74: 4600012216006183632
+    second: Battery|Cube.008Action.001
+  - first:
+      74: 5481113211171678378
+    second: Battery|Cube.009Action
+  - first:
+      74: 7873161798969488659
+    second: Battery|Left armAction
+  - first:
+      74: -8592364622555334495
+    second: Battery|Main screwAction
+  - first:
+      74: -4013455030077237272
+    second: Battery|Right armAction
+  - first:
+      74: 3224109743940417398
+    second: Battery|TiresAction
+  - first:
+      74: -1323909664023243008
+    second: Battery 2|Battery 1Action
+  - first:
+      74: 3172605648378967187
+    second: Battery 2|Battery CoverAction
+  - first:
+      74: -3441077858455406978
+    second: Battery 2|Battery screw small  cross 2Action
+  - first:
+      74: -3413563875788626980
+    second: Battery 2|Battery screw small  crossAction
+  - first:
+      74: -4098770733077720703
+    second: Battery 2|Battery screw small  crossAction.001
+  - first:
+      74: -7714007520110916503
+    second: Battery 2|BatteryAction
+  - first:
+      74: -3832432430978762004
+    second: Battery 2|BatteryAction.001
+  - first:
+      74: -8859241869958340136
+    second: Battery 2|BladesAction
+  - first:
+      74: -1604162803784322184
+    second: Battery 2|Blender BodyAction
+  - first:
+      74: -7158281724534727605
+    second: Battery 2|bolt 2Action
+  - first:
+      74: -4699298183642147811
+    second: Battery 2|boltAction
+  - first:
+      74: -4944239200037778560
+    second: Battery 2|ContainerAction
+  - first:
+      74: 4743872039567093092
+    second: Battery 2|CoverAction
+  - first:
+      74: 827494421227937704
+    second: Battery 2|Cube.008Action.001
+  - first:
+      74: 9205986009350538955
+    second: Battery 2|Cube.009Action
+  - first:
+      74: 931450972803797454
+    second: Battery 2|Left armAction
+  - first:
+      74: -8220007325721663160
+    second: Battery 2|Main screwAction
+  - first:
+      74: 3585408556591611881
+    second: Battery 2|Right armAction
+  - first:
+      74: 18116958460379549
+    second: Battery 2|TiresAction
+  - first:
+      74: 7201160089347196488
+    second: Battery screw small  cross.001|Battery 1Action
+  - first:
+      74: 736196960653305538
+    second: Battery screw small  cross.001|Battery CoverAction
+  - first:
+      74: 2665759669599902034
+    second: Battery screw small  cross.001|Battery screw small  cross 2Action
+  - first:
+      74: -5757753694369268147
+    second: Battery screw small  cross.001|Battery screw small  crossAction
+  - first:
+      74: 1974464003350236433
+    second: Battery screw small  cross.001|Battery screw small  crossAction.001
+  - first:
+      74: 1060549893163293309
+    second: Battery screw small  cross.001|BatteryAction
+  - first:
+      74: -1326984123469053195
+    second: Battery screw small  cross.001|BatteryAction.001
+  - first:
+      74: -3326494747246672614
+    second: Battery screw small  cross.001|BladesAction
+  - first:
+      74: 8675073445737095454
+    second: Battery screw small  cross.001|Blender BodyAction
+  - first:
+      74: 8948194095880992018
+    second: Battery screw small  cross.001|bolt 2Action
+  - first:
+      74: -7923865565909007382
+    second: Battery screw small  cross.001|boltAction
+  - first:
+      74: 803320734755393319
+    second: Battery screw small  cross.001|ContainerAction
+  - first:
+      74: -5696113497680298550
+    second: Battery screw small  cross.001|CoverAction
+  - first:
+      74: 5180726458451771416
+    second: Battery screw small  cross.001|Cube.008Action.001
+  - first:
+      74: -5003783344036415955
+    second: Battery screw small  cross.001|Cube.009Action
+  - first:
+      74: 2726042781944458980
+    second: Battery screw small  cross.001|Left armAction
+  - first:
+      74: -3133803691978387748
+    second: Battery screw small  cross.001|Main screwAction
+  - first:
+      74: 2996281174409238379
+    second: Battery screw small  cross.001|Right armAction
+  - first:
+      74: -1650636660331182326
+    second: Battery screw small  cross.001|TiresAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arm
+    second: {fileID: 2100000, guid: 1146bb6f94a7e564c891355f5a3a3c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battery
+    second: {fileID: 2100000, guid: ee56bda2dad9b96429a51c93131816c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battery cover
+    second: {fileID: 2100000, guid: 9b8f6481094abbd4e92471f989573c28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blades
+    second: {fileID: 2100000, guid: 25517e1804aaca147ad5e84973b406c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blender body
+    second: {fileID: 2100000, guid: 3778ec8c6c5dfc043a8de3259661c356, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blender body buttons
+    second: {fileID: 2100000, guid: a4eec33994495ab40b0949135d7579d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blender body luci
+    second: {fileID: 2100000, guid: 689dc60cc9bc69f49ab095615c0c09cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bolt
+    second: {fileID: 2100000, guid: d735c95757da3744694f7f0efe05aba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: container
+    second: {fileID: 2100000, guid: b2f51ceb7689ffb4f8e2b733155bd459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover
+    second: {fileID: 2100000, guid: 796eafe008c8acb499401953228bcea6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main screw
+    second: {fileID: 2100000, guid: 85bf3fbc51d487348b96945cc24d87db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screw cross
+    second: {fileID: 2100000, guid: 8e5631810a8ee7d4398ec3a756ea17cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire
+    second: {fileID: 2100000, guid: 85113b12eb0152141a51670b32e84b8b, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
