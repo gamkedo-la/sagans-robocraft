@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - DroidPart
+  - Interactable
   layers:
   - Default
   - TransparentFX

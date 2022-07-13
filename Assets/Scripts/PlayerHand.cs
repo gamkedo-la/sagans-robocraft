@@ -34,7 +34,7 @@ public class PlayerHand : MonoBehaviour
 
         if (touchedObject)
         {
-            if (touchedObject.tag == "DroidPart")
+            if (touchedObject.tag == "DroidPart" || touchedObject.tag =="Interactable")
             {
                 isGrabbing = true;
                 touchedRB = touchedObject.GetComponent<Rigidbody>();
@@ -47,7 +47,12 @@ public class PlayerHand : MonoBehaviour
     {
         isGrabbing = false;
         touchedRB.isKinematic = false; //check position after this
-        touchedObject.GetComponent<DroidPart>()?.checkPosition();
+        if (touchedObject.tag == "DroidPart")
+        {
+            touchedObject.GetComponent<DroidPart>()?.checkPosition();
+
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
