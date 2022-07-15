@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/DroidPuzzle", order = 1)]
 public class DroidPuzzle : ScriptableObject
 {
-    public bool isSolved;
+    public bool isSolved = false;
     public GameObject referenceDroid;
     public GameObject targetDroid;
     public List<DroidPart> droidPartList;

@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class LevelManager : MonoBehaviour
 {
     public List<DroidPuzzle> droidPuzzles;
-    public int currentDroidPuzzleIndex;
+    private int currentDroidPuzzleIndex = -1;
     public DroidPuzzle currentDroidPuzzle;
 
     private GameObject targetDroid;
@@ -22,9 +22,7 @@ public class LevelManager : MonoBehaviour
             changeDroidReference.action.performed += VRChangeDroid;
         }
 
-        currentDroidPuzzleIndex = 0;
-        currentDroidPuzzle = droidPuzzles[currentDroidPuzzleIndex];
-        RenderDroidPuzzle();
+        ChangeDroid();
 
     }
 
@@ -36,7 +34,22 @@ public class LevelManager : MonoBehaviour
 
     public void ChangeDroid()
     {
-        // TODO: switch based on list of droid puzzles - dynamic support
+        currentDroidPuzzleIndex = currentDroidPuzzleIndex + 1;
+        if (currentDroidPuzzleIndex < droidPuzzles.Count)
+        {
+            currentDroidPuzzle = droidPuzzles[currentDroidPuzzleIndex];
+            RenderDroidPuzzle();
+        }
+        else
+        {
+            //No more droid puzzles
+            Debug.Log("No more puzzles");
+            if (DidPlayerWinGame())
+            {
+                Debug.Log("Player Won! Game Over");
+                // TODO: Display Game Over Screen & Roll Credits
+            }
+        }
     }
 
     private void CheckDroidPartsLocked(List<DroidPart> allDroidParts)
@@ -53,14 +66,29 @@ public class LevelManager : MonoBehaviour
 
         if (allPartsLocked)
         {
+            // animate droid and indicate to Player puzzle solved
             Debug.Log("droid locked!");
-
+            currentDroidPuzzle.isSolved = true;
+            ChangeDroid();
         }
+    }
+
+    private bool DidPlayerWinGame()
+    {
+        bool gameWon = true;
+        foreach (var droid in droidPuzzles)
+        {
+            if (!droid.isSolved)
+            {
+                gameWon = false;
+            }
+        }
+
+        return gameWon;
     }
 
     private void VRChangeDroid(InputAction.CallbackContext obj)
     {
-        Debug.Log("VR mode?");
         ChangeDroid();
     }
 
@@ -84,6 +112,7 @@ public class LevelManager : MonoBehaviour
             this.allDroidParts.Add(instantiatedPart);
             partCounter++;
         }
+
     }
 
     // https://gamedev.stackexchange.com/questions/174398/how-find-child-using-tag
