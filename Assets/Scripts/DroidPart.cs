@@ -9,6 +9,7 @@ public class DroidPart : MonoBehaviour
     private float LOCK_DISTANCE = 0.1f;
     public bool isLocked = false;
     public GameObject prequisiteDroidPart;
+    public string droidPartReferenceId;
 
     // Start is called before the first frame update
     void Start()

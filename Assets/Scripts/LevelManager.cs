@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -110,7 +111,7 @@ public class LevelManager : MonoBehaviour
             List<Transform> hiddenPartsInTarget = FindChildrenWithTags(this.targetDroid.transform.root, "DroidPart");
             foreach (Transform hiddenPart in hiddenPartsInTarget)
             {
-                if (hiddenPart.gameObject.name == instantiatedPart.gameObject.name)
+                if (CheckDroidPartReference(instantiatedPart, hiddenPart.gameObject))
                 {
                     instantiatedPart.correctDroidPart = hiddenPart.gameObject;
 
@@ -144,5 +145,16 @@ public class LevelManager : MonoBehaviour
             }
         }
         return children;
+    }
+
+    bool CheckDroidPartReference(DroidPart instantiatedDroidPart, GameObject hiddenPart)
+    {
+        DroidPart hiddenDroidPart = hiddenPart.GetComponent<DroidPart>();
+        if (hiddenDroidPart != null)
+        {
+            return String.Equals(instantiatedDroidPart.droidPartReferenceId, hiddenDroidPart.droidPartReferenceId);
+        }
+
+        return false;
     }
 }

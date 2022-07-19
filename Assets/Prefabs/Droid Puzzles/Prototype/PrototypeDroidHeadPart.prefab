@@ -130,6 +130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctDroidPart: {fileID: 0}
   isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: PrototypeDroidHeadPart
 --- !u!114 &774013122534344634
 MonoBehaviour:
   m_ObjectHideFlags: 0

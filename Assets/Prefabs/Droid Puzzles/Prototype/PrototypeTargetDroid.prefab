@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 5940365177394232291}
   - component: {fileID: 5940365177394232296}
   - component: {fileID: 5940365177394232295}
+  - component: {fileID: 1934765242699611215}
   m_Layer: 0
   m_Name: PrototypeDroidHeadpart
   m_TagString: DroidPart
@@ -199,3 +200,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1934765242699611215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5940365177394232290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: PrototypeDroidHeadPart
