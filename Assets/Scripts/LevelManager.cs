@@ -101,20 +101,20 @@ public class LevelManager : MonoBehaviour
         List<DroidPart> droidParts = currentDroidPuzzle.droidPartList;
 
         this.targetDroid = Instantiate(targetDroid, currentDroidPuzzle.targetDroidPosition, Quaternion.identity);
+        //this.targetDroid.transform.Rotate(targetDroid.transform.rotation.x, targetDroid.transform.rotation.y, targetDroid.transform.rotation.z);
         this.referenceDroid = Instantiate(referenceDroid, currentDroidPuzzle.referenceDroidPosition, Quaternion.identity);
         this.allDroidParts.Clear();
+        List<Transform> hiddenPartsInTarget = FindChildrenWithTags(this.targetDroid.transform.root, "DroidPart");
 
         int partCounter = 0;
         foreach (DroidPart part in droidParts)
         {
             DroidPart instantiatedPart = Instantiate(part, currentDroidPuzzle.droidPartPostions[partCounter], Quaternion.identity);
-            List<Transform> hiddenPartsInTarget = FindChildrenWithTags(this.targetDroid.transform.root, "DroidPart");
             foreach (Transform hiddenPart in hiddenPartsInTarget)
             {
                 if (CheckDroidPartReference(instantiatedPart, hiddenPart.gameObject))
                 {
                     instantiatedPart.correctDroidPart = hiddenPart.gameObject;
-
                 }
             }
             this.allDroidParts.Add(instantiatedPart);
