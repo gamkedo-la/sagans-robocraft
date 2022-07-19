@@ -885,7 +885,7 @@ GameObject:
   - component: {fileID: 1317320158983719952}
   - component: {fileID: 4615459883374270205}
   m_Layer: 0
-  m_Name: belt 1
+  m_Name: left-belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

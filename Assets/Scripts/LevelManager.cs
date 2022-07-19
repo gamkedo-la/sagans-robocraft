@@ -107,8 +107,15 @@ public class LevelManager : MonoBehaviour
         foreach (DroidPart part in droidParts)
         {
             DroidPart instantiatedPart = Instantiate(part, currentDroidPuzzle.droidPartPostions[partCounter], Quaternion.identity);
-            Transform hiddenPartInTarget = FindWithTag(this.targetDroid.transform.root, "DroidPart");
-            instantiatedPart.correctDroidPart = hiddenPartInTarget.gameObject;
+            List<Transform> hiddenPartsInTarget = FindChildrenWithTags(this.targetDroid.transform.root, "DroidPart");
+            foreach (Transform hiddenPart in hiddenPartsInTarget)
+            {
+                if (hiddenPart.gameObject.name == instantiatedPart.gameObject.name)
+                {
+                    instantiatedPart.correctDroidPart = hiddenPart.gameObject;
+
+                }
+            }
             this.allDroidParts.Add(instantiatedPart);
             partCounter++;
         }
@@ -125,4 +132,17 @@ public class LevelManager : MonoBehaviour
         return null;
     }
 
+    // Find multiple children with tags
+    List<Transform> FindChildrenWithTags(Transform root, string tag)
+    {
+        List<Transform> children = new List<Transform>();
+        foreach (Transform t in root.GetComponentsInChildren<Transform>())
+        {
+            if (t.CompareTag(tag))
+            {
+                children.Add(t);
+            }
+        }
+        return children;
+    }
 }

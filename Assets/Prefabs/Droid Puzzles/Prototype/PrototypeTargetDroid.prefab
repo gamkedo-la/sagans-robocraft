@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 5940365177394232296}
   - component: {fileID: 5940365177394232295}
   m_Layer: 0
-  m_Name: DroidAHeadPartTarget
+  m_Name: PrototypeDroidHeadpart
   m_TagString: DroidPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

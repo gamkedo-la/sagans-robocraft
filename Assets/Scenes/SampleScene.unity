@@ -1542,6 +1542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: left-belt
       objectReference: {fileID: 0}
+    - target: {fileID: 7360609045073418276, guid: 60c137f7350a9394590d261fddb7fbe2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7360609045073418277, guid: 60c137f7350a9394590d261fddb7fbe2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -18429,6 +18433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: capsule
       objectReference: {fileID: 0}
+    - target: {fileID: 1231896250045541693, guid: 357ec2f9628adbb49bee1164834db3d5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 357ec2f9628adbb49bee1164834db3d5, type: 3}
 --- !u!1 &946090826
@@ -18590,6 +18598,14 @@ PrefabInstance:
     - target: {fileID: 7547720912038874042, guid: 03095c6583a85d146b95aab943c1fb07, type: 3}
       propertyPath: m_Name
       value: Spoter-Variation1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7547720912038874042, guid: 03095c6583a85d146b95aab943c1fb07, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504219925064370350, guid: 03095c6583a85d146b95aab943c1fb07, type: 3}
+      propertyPath: m_Name
+      value: left-belt
       objectReference: {fileID: 0}
     - target: {fileID: 8504219925064370350, guid: 03095c6583a85d146b95aab943c1fb07, type: 3}
       propertyPath: m_TagString
@@ -30505,6 +30521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   droidPuzzles:
   - {fileID: 11400000, guid: b0cba5754b0e4b74d8103785e083614c, type: 2}
+  - {fileID: 11400000, guid: edbe470784425484196b7bc5443c2476, type: 2}
   currentDroidPuzzle: {fileID: 0}
   changeDroidReference: {fileID: 3987049595990654611, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1637550298
@@ -34302,6 +34319,10 @@ PrefabInstance:
     - target: {fileID: 7258809044211786299, guid: bdb4d6a06635e5f4ca253913f5e45392, type: 3}
       propertyPath: m_Name
       value: ReferenceSpoterDroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258809044211786299, guid: bdb4d6a06635e5f4ca253913f5e45392, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8068103012479056001, guid: bdb4d6a06635e5f4ca253913f5e45392, type: 3}
       propertyPath: m_RootOrder
