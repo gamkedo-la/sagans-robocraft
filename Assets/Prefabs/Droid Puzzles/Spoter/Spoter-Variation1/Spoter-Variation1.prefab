@@ -177,9 +177,10 @@ GameObject:
   - component: {fileID: 8245867691030932462}
   - component: {fileID: 6827245876958595619}
   - component: {fileID: 8310269126024223372}
+  - component: {fileID: 3340624088893498861}
   m_Layer: 0
   m_Name: capsule
-  m_TagString: Untagged
+  m_TagString: DroidPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,6 +250,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3340624088893498861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848199885826446642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: capsule
 --- !u!1 &2391585486744263119
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,9 +901,10 @@ GameObject:
   - component: {fileID: 5839796454035515357}
   - component: {fileID: 1317320158983719952}
   - component: {fileID: 4615459883374270205}
+  - component: {fileID: 5014114048169082347}
   m_Layer: 0
   m_Name: left-belt
-  m_TagString: Untagged
+  m_TagString: DroidPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -956,6 +974,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5014114048169082347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8504219925064370350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: left-belt
 --- !u!1 &9205117688418342419
 GameObject:
   m_ObjectHideFlags: 0

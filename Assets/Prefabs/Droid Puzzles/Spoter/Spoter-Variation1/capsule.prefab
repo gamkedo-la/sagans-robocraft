@@ -103,6 +103,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: capsule
 --- !u!54 &1231896250045541638
 Rigidbody:
   m_ObjectHideFlags: 0
