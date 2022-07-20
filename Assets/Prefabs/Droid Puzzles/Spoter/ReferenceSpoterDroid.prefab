@@ -922,6 +922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8068103012479056001}
+  - component: {fileID: 913568635090358850}
   m_Layer: 0
   m_Name: ReferenceSpoterDroid
   m_TagString: Untagged
@@ -957,6 +958,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &913568635090358850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7258809044211786299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: 
 --- !u!1 &8340026283554029458
 GameObject:
   m_ObjectHideFlags: 0

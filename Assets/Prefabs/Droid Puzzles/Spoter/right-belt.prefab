@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1277224443432695427}
   - component: {fileID: 8050904829204648361}
   - component: {fileID: 7668443970714681821}
+  - component: {fileID: -3876079984059614275}
   m_Layer: 0
   m_Name: right-belt
   m_TagString: Untagged
@@ -83,3 +84,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-3876079984059614275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444210340030296005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: right-belt

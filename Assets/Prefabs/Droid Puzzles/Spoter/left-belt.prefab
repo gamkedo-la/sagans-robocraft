@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7360609045073418296}
   - component: {fileID: 7360609045073418279}
   - component: {fileID: 7360609045073418278}
+  - component: {fileID: -5466611902139357759}
   m_Layer: 0
   m_Name: left-belt
   m_TagString: DroidPart
@@ -260,3 +261,19 @@ CapsuleCollider:
   m_Height: 0.02093234
   m_Direction: 1
   m_Center: {x: -0.0000000051222755, y: 0.000102327256, z: -0.00029408868}
+--- !u!114 &-5466611902139357759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7360609045073418276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  droidPartReferenceId: 
