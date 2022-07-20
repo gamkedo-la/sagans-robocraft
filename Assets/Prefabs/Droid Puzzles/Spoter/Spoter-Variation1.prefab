@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7768045875983161747}
   - component: {fileID: 5535911216855313336}
   m_Layer: 0
-  m_Name: tire 1
+  m_Name: left-tire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5389622208191128491}
   - component: {fileID: 483126568170752183}
   m_Layer: 0
-  m_Name: tire 2
+  m_Name: right-tire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848199885826446642}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -939,7 +939,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8504219925064370350}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
