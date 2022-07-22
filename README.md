@@ -52,4 +52,6 @@ Upon opening the command prompt in windows you should be able to type `adb` and 
 
 https://user-images.githubusercontent.com/2074813/180342489-c75471ed-266d-4c08-bc1a-a5d7eaa7acc0.mov
 
+## Droid Puzzles Tutorial
 
+https://youtu.be/Ooyj9KvNxcc
