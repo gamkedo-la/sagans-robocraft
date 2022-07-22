@@ -23,6 +23,7 @@ public class LevelManager : MonoBehaviour
             changeDroidReference.action.performed += VRChangeDroid;
         }
 
+        ResetDroidPuzzlesSolved();
         ChangeDroid();
 
     }
@@ -33,6 +34,13 @@ public class LevelManager : MonoBehaviour
          CheckDroidPartsLocked(allDroidParts);
     }
 
+    public void ResetDroidPuzzlesSolved()
+    {
+        foreach (DroidPuzzle puzzle in droidPuzzles)
+        {
+            puzzle.isSolved = false;
+        }
+    }
     public void ChangeDroid()
     {
         currentDroidPuzzleIndex = currentDroidPuzzleIndex + 1;
