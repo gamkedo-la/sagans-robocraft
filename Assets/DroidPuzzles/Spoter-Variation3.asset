@@ -13,9 +13,19 @@ MonoBehaviour:
   m_Name: Spoter-Variation3
   m_EditorClassIdentifier: 
   isSolved: 0
-  referenceDroid: {fileID: 0}
-  targetDroid: {fileID: 0}
-  droidPartList: []
-  referenceDroidPosition: {x: 0, y: 0, z: 0}
-  targetDroidPosition: {x: 0, y: 0, z: 0}
-  droidPartPostions: []
+  referenceDroid: {fileID: 7258809044211786299, guid: bdb4d6a06635e5f4ca253913f5e45392, type: 3}
+  targetDroid: {fileID: 7547720912038874042, guid: 132803beb3f52dd4493620104942c22b, type: 3}
+  droidPartList:
+  - {fileID: 7360609045073418297, guid: 60c137f7350a9394590d261fddb7fbe2, type: 3}
+  - {fileID: -6271721373918542941, guid: 0d23465eb8b04b54c8f523795b98a194, type: 3}
+  - {fileID: 1231896250045541639, guid: 357ec2f9628adbb49bee1164834db3d5, type: 3}
+  - {fileID: -3876079984059614275, guid: 81c630bde4f276440a60880be8d6ae9d, type: 3}
+  - {fileID: -4575389208776519513, guid: d04194ab47c69a040bea3570f5aef911, type: 3}
+  referenceDroidPosition: {x: 1.2546953, y: 0.7867746, z: 1.4795543}
+  targetDroidPosition: {x: 0.5358722, y: 0.7867746, z: 1.6933813}
+  droidPartPostions:
+  - {x: 0.7827214, y: 0.52999586, z: 1.3519813}
+  - {x: 0.41305053, y: 0.561888, z: 1.2878802}
+  - {x: 0.5293156, y: 0.57591933, z: 2.3756073}
+  - {x: 0.43535137, y: 0.51899093, z: 2.696311}
+  - {x: 0.34672457, y: 0.56209266, z: 2.0581443}
