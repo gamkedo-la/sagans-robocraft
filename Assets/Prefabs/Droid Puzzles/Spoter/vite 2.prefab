@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5279131591986430043}
   m_Layer: 0
   m_Name: vite 2
-  m_TagString: Untagged
+  m_TagString: DroidPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

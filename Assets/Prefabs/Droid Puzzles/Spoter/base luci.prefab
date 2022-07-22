@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6092840646376851897}
   m_Layer: 0
   m_Name: base luci
-  m_TagString: Untagged
+  m_TagString: DroidPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
