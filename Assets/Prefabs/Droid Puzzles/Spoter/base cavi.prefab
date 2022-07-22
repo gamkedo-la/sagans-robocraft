@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1374447488987525192}
   - component: {fileID: 6068967357602297082}
   - component: {fileID: 4796689201233501742}
+  - component: {fileID: 7421918930114178702}
   m_Layer: 0
   m_Name: base cavi
   m_TagString: Untagged
@@ -101,6 +102,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
   droidPartReferenceId: base cavi
 --- !u!54 &6068967357602297082
 Rigidbody:
@@ -245,3 +247,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!65 &7421918930114178702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7026785742615952987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.025040459, y: 0.022272076, z: 0.019640395}
+  m_Center: {x: -0.008071059, y: 0.0007865151, z: 0.0075061265}

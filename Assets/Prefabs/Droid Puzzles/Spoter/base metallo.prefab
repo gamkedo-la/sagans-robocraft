@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 834570075556350340}
   - component: {fileID: -3726396277302811532}
   - component: {fileID: 1744744600366245851}
+  - component: {fileID: 6813366090046464864}
   m_Layer: 0
   m_Name: base metallo
   m_TagString: Untagged
@@ -101,6 +102,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
   droidPartReferenceId: base metallo
 --- !u!54 &-3726396277302811532
 Rigidbody:
@@ -245,3 +247,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!65 &6813366090046464864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357559774350828946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020942878, y: 0.020000005, z: 0.021422606}
+  m_Center: {x: -0.00879135, y: -0.00069304014, z: 0.008629902}

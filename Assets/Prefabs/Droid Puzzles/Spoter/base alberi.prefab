@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4178290445859169007}
   - component: {fileID: -4900127026140408777}
   - component: {fileID: 3433245266856648136}
+  - component: {fileID: 820151332467499452}
   m_Layer: 0
   m_Name: base alberi
   m_TagString: Untagged
@@ -101,6 +102,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
   droidPartReferenceId: base alberi
 --- !u!54 &-4900127026140408777
 Rigidbody:
@@ -245,3 +247,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!65 &820151332467499452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515995300953668589}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.049553685, y: 0.020153826, z: 0.008269273}
+  m_Center: {x: -0.008397064, y: -0.00077619, z: -0.0060736663}

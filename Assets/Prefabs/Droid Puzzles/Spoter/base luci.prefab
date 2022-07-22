@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1012234503369789078}
   - component: {fileID: -3478070049184733738}
   - component: {fileID: 6764749524831048919}
+  - component: {fileID: 6092840646376851897}
   m_Layer: 0
   m_Name: base luci
   m_TagString: Untagged
@@ -101,6 +102,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
   droidPartReferenceId: base luci
 --- !u!54 &-3478070049184733738
 Rigidbody:
@@ -245,3 +247,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!65 &6092840646376851897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5108775344226408172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00560572, y: 0.0010559701, z: 0.0011893602}
+  m_Center: {x: -0.00831991, y: -0.010302578, z: -0.000049809994}
