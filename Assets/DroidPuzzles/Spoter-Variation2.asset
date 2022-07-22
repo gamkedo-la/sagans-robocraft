@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ceef452efcea1441889d8c3869a5e3a, type: 3}
+  m_Name: Spoter-Variation2
+  m_EditorClassIdentifier: 
+  isSolved: 0
+  referenceDroid: {fileID: 7258809044211786299, guid: bdb4d6a06635e5f4ca253913f5e45392, type: 3}
+  targetDroid: {fileID: 7547720912038874042, guid: 287d785c43ebca340a7cc050bc3d14b6, type: 3}
+  droidPartList:
+  - {fileID: -4575389208776519513, guid: d04194ab47c69a040bea3570f5aef911, type: 3}
+  - {fileID: -3876079984059614275, guid: 81c630bde4f276440a60880be8d6ae9d, type: 3}
+  referenceDroidPosition: {x: 0.6081898, y: 0.78677475, z: 1.4344767}
+  targetDroidPosition: {x: 0.4727969, y: 0.7867746, z: 2.08924}
+  droidPartPostions:
+  - {x: 0.5948121, y: 0.56209266, z: 2.5837045}
+  - {x: 0.45598534, y: 0.518991, z: 2.6841369}

@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: -3876079984059614275}
   - component: {fileID: 2136173087482247282}
   - component: {fileID: -6102437101456967422}
+  - component: {fileID: 8647648379476786328}
   m_Layer: 0
   m_Name: right-belt
-  m_TagString: Untagged
+  m_TagString: DroidPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +102,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: right-tire
   droidPartReferenceId: right-belt
 --- !u!54 &2136173087482247282
 Rigidbody:
@@ -245,3 +247,17 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!136 &8647648379476786328
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444210340030296005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0041023386
+  m_Height: 0.022088839
+  m_Direction: 1
+  m_Center: {x: -0.00016063378, y: 0.00009050221, z: -0.00023420945}

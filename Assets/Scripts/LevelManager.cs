@@ -104,6 +104,7 @@ public class LevelManager : MonoBehaviour
         this.referenceDroid = Instantiate(referenceDroid, currentDroidPuzzle.referenceDroidPosition, referenceDroid.transform.rotation);
         this.allDroidParts.Clear();
         List<Transform> hiddenPartsInTarget = FindChildrenWithTags(this.targetDroid.transform.root, "DroidPart");
+        Dictionary<string, DroidPart> instantiatedParts = new Dictionary<string, DroidPart>();
 
         int partCounter = 0;
         foreach (DroidPart part in droidParts)
@@ -117,9 +118,17 @@ public class LevelManager : MonoBehaviour
                 }
             }
             this.allDroidParts.Add(instantiatedPart);
+            instantiatedParts.Add(instantiatedPart.droidPartReferenceId, instantiatedPart);
             partCounter++;
         }
 
+        foreach (DroidPart part in this.allDroidParts)
+        {
+            if (part.prerequisiteDroidPartId != null && !String.Equals(part.prerequisiteDroidPartId, ""))
+            {
+                part.prequisiteDroidPart = instantiatedParts[part.prerequisiteDroidPartId].gameObject;
+            }
+        }
     }
 
     // https://gamedev.stackexchange.com/questions/174398/how-find-child-using-tag
