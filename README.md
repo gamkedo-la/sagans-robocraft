@@ -46,3 +46,8 @@ Update the User `Path` variable with the following:
 If the android sdk was installed to a different folder, specify that folder instead.
 
 Upon opening the command prompt in windows you should be able to type `adb` and to help debug any issues with your Quest devices and sideloading.
+
+## Interactable Object Tutorial
+
+https://user-images.githubusercontent.com/2074813/180341958-bd9b71ad-2b6b-4e50-87f5-283da275fdec.mp4
+
