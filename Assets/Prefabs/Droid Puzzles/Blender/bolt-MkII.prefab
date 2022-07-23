@@ -117,7 +117,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
-  prerequisiteDroidPartId: 
+  prerequisiteDroidPartId: Main Screw
   droidPartReferenceId: bolt-MkII
 --- !u!135 &4390994350740068608
 SphereCollider:

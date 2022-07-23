@@ -117,8 +117,8 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
-  prerequisiteDroidPartId: 
-  droidPartReferenceId: 
+  prerequisiteDroidPartId: Container
+  droidPartReferenceId: Cover
 --- !u!65 &6047483983487419168
 BoxCollider:
   m_ObjectHideFlags: 0

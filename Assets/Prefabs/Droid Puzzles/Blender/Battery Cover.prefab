@@ -117,7 +117,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
-  prerequisiteDroidPartId: 
+  prerequisiteDroidPartId: Battery
   droidPartReferenceId: Battery Cover
 --- !u!65 &8240623669872797509
 BoxCollider:

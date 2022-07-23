@@ -117,7 +117,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
-  prerequisiteDroidPartId: 
+  prerequisiteDroidPartId: Battery Cover
   droidPartReferenceId: Screw-MkII
 --- !u!65 &6445342787715545751
 BoxCollider:

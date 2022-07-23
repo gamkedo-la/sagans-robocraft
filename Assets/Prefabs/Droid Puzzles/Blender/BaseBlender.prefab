@@ -736,7 +736,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
-  prerequisiteDroidPartId: 
+  prerequisiteDroidPartId: Tires
   droidPartReferenceId: Main screw
 --- !u!54 &8612020709791890005
 Rigidbody:
@@ -1564,7 +1564,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
-  prerequisiteDroidPartId: 
+  prerequisiteDroidPartId: Main Screw
   droidPartReferenceId: bolt
 --- !u!54 &198814107233275952
 Rigidbody:

@@ -117,7 +117,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
-  prerequisiteDroidPartId: 
+  prerequisiteDroidPartId: Tires
   droidPartReferenceId: Main screw
 --- !u!136 &3830910877510569861
 CapsuleCollider:
