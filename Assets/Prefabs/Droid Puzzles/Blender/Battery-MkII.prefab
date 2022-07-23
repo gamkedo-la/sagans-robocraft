@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8888964791355774131}
   - component: {fileID: -7245241783281284050}
   - component: {fileID: 1297765129571475841}
+  - component: {fileID: 5788814268834872379}
   m_Layer: 0
   m_Name: Battery-MkII
   m_TagString: DroidPart
@@ -118,3 +119,17 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Battery-MkII
+--- !u!136 &5788814268834872379
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5222608046530308907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.00084281503
+  m_Height: 0.006485007
+  m_Direction: 1
+  m_Center: {x: 0.011892588, y: -0.000043919685, z: 0.007105464}

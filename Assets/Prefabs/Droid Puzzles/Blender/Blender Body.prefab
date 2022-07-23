@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6829040018527767372}
   - component: {fileID: -6414469362517808189}
   - component: {fileID: 6244866280327180322}
+  - component: {fileID: 697152503031823727}
   m_Layer: 0
   m_Name: Blender Body
   m_TagString: DroidPart
@@ -120,3 +121,16 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Blender Body
+--- !u!65 &697152503031823727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5079521386775444506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02261947, y: 0.01876688, z: 0.022359505}
+  m_Center: {x: 0.0015281336, y: 4.656612e-10, z: 0.0067309067}

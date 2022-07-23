@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 488055483945733373}
   - component: {fileID: 4360642540763461633}
   - component: {fileID: 91315889271117674}
+  - component: {fileID: 5386821195938767866}
   m_Layer: 0
   m_Name: Right arm
   m_TagString: DroidPart
@@ -118,3 +119,16 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Right arm
+--- !u!65 &5386821195938767866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059564751999413660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0066786865, y: 0.015711522, z: 0.026390614}
+  m_Center: {x: 0.0050372784, y: 0.014353048, z: 0.016466193}

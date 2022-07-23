@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4875824708468935}
   - component: {fileID: -8150883795662855118}
   - component: {fileID: -2377080830481091183}
+  - component: {fileID: 8240623669872797509}
   m_Layer: 0
   m_Name: Battery Cover
   m_TagString: DroidPart
@@ -118,3 +119,16 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Battery Cover
+--- !u!65 &8240623669872797509
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7475451089527518081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00013456121, y: 0.008542171, z: 0.0047055827}
+  m_Center: {x: 0.012893921, y: -0.0000015562398, z: 0.0062176734}

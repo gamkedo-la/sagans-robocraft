@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1754907546265621463}
   - component: {fileID: -2258966653904402476}
   - component: {fileID: 1895064203008415846}
+  - component: {fileID: 6445342787715545751}
   m_Layer: 0
   m_Name: Screw-MkII
   m_TagString: DroidPart
@@ -118,3 +119,16 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Screw-MkII
+--- !u!65 &6445342787715545751
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3870830370436112257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00094122905, y: 0.0008364858, z: 0.00083648536}
+  m_Center: {x: 0.012951782, y: -0.0036485058, z: 0.0061557433}

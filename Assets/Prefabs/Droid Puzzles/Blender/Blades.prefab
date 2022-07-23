@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 706085286002004374}
   - component: {fileID: 8024774870048840292}
   - component: {fileID: -7725073042458943478}
+  - component: {fileID: 6676224054807410628}
   m_Layer: 0
   m_Name: Blades
   m_TagString: DroidPart
@@ -118,3 +119,16 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Blades
+--- !u!65 &6676224054807410628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8013803353604340979}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0071758125, y: 0.0071588545, z: 0.0010908784}
+  m_Center: {x: 0.004957826, y: -0.0000021889568, z: 0.018051613}

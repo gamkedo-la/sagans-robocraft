@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7229140454961522617}
   - component: {fileID: -4819073486122258148}
   - component: {fileID: 5713424331092353353}
+  - component: {fileID: 6675931068099654801}
   m_Layer: 0
   m_Name: bolt
   m_TagString: DroidPart
@@ -118,3 +119,16 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: bolt
+--- !u!135 &6675931068099654801
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3797708463416500957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0019026882
+  m_Center: {x: 0.005314251, y: -0.005143618, z: -0.0028763954}

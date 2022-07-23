@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4834744602190591302}
   - component: {fileID: 6806060711551169887}
   - component: {fileID: -1149284202325867615}
+  - component: {fileID: 523353795953278995}
   m_Layer: 0
   m_Name: Tires
   m_TagString: DroidPart
@@ -118,3 +119,16 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Tires
+--- !u!65 &523353795953278995
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7416616165320126001}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014032578, y: 0.005950197, z: 0.014032577}
+  m_Center: {x: 0.005330286, y: 0, z: -0.002874331}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2742635701362090607}
   - component: {fileID: -4825067303904004251}
   - component: {fileID: 2295726576922726392}
+  - component: {fileID: 3830910877510569861}
   m_Layer: 0
   m_Name: Main screw
   m_TagString: DroidPart
@@ -118,3 +119,17 @@ MonoBehaviour:
   prequisiteDroidPart: {fileID: 0}
   prerequisiteDroidPartId: 
   droidPartReferenceId: Main screw
+--- !u!136 &3830910877510569861
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397932942666291393}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.00092868775
+  m_Height: 0.01337875
+  m_Direction: 1
+  m_Center: {x: 0.0053142477, y: -0.000044698118, z: -0.0028763958}
