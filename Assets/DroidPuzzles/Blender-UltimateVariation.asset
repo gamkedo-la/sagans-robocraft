@@ -13,9 +13,37 @@ MonoBehaviour:
   m_Name: Blender-UltimateVariation
   m_EditorClassIdentifier: 
   isSolved: 0
-  referenceDroid: {fileID: 0}
-  targetDroid: {fileID: 0}
-  droidPartList: []
-  referenceDroidPosition: {x: 0, y: 0, z: 0}
-  targetDroidPosition: {x: 0, y: 0, z: 0}
-  droidPartPostions: []
+  referenceDroid: {fileID: 1176313234862899997, guid: 579ebfe2750c6d447bad2c708ed634d1, type: 3}
+  targetDroid: {fileID: 1176313234862899997, guid: b643c77f284f24148b5ed0ef32453b09, type: 3}
+  droidPartList:
+  - {fileID: -2377080830481091183, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+  - {fileID: 1297765129571475841, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+  - {fileID: 1781670229314722201, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+  - {fileID: -7725073042458943478, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+  - {fileID: 6893085805819491344, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+  - {fileID: 5713424331092353353, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+  - {fileID: 1786534922081725697, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+  - {fileID: 8852295198870705702, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+  - {fileID: 3363941000341774077, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+  - {fileID: 2295726576922726392, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+  - {fileID: 91315889271117674, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+  - {fileID: 1895064203008415846, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+  - {fileID: 3137579993906680115, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+  - {fileID: -1149284202325867615, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+  referenceDroidPosition: {x: -2.913, y: 0.865, z: 7.799}
+  targetDroidPosition: {x: -2.854, y: 0.794, z: 6.869}
+  droidPartPostions:
+  - {x: -1.433, y: 0.6878258, z: 9.16}
+  - {x: -1.7086229, y: 0.63917494, z: 9.16}
+  - {x: -1.564, y: 0.67443246, z: 9.16}
+  - {x: -1.7086229, y: 0.415, z: 9.16}
+  - {x: -0.93, y: 0.99899936, z: 9.317291}
+  - {x: -0.898, y: 0.99899936, z: 8.916}
+  - {x: -0.112, y: 0.586, z: 8.796}
+  - {x: -0.008, y: -0.105, z: 9.317291}
+  - {x: -0.39544064, y: 0.838, z: 8.548}
+  - {x: -0.757, y: 0.98, z: 8.77}
+  - {x: -1.996, y: 0.722, z: 9.566}
+  - {x: -1.0897317, y: 0.585, z: 9.222}
+  - {x: -1.197, y: 0.743, z: 9.326}
+  - {x: -1.779, y: 0.933, z: 8.826}
