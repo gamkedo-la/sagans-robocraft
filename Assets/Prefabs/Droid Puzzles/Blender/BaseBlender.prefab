@@ -1,0 +1,1368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1176313234862899997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1952532587161868711}
+  m_Layer: 0
+  m_Name: BaseBlender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1952532587161868711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176313234862899997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.844, y: 0.667, z: -0.99}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 768469415241396191}
+  - {fileID: 7079108405773256683}
+  - {fileID: 1549821852066358445}
+  - {fileID: 8798362001376416124}
+  - {fileID: 1049968965764232834}
+  - {fileID: 666545444806289740}
+  - {fileID: 7462680257218158414}
+  - {fileID: 3141766911931213520}
+  - {fileID: 1152850183426696716}
+  - {fileID: 6741030881580091963}
+  - {fileID: 4289470953920540078}
+  - {fileID: 4275139034104720047}
+  - {fileID: 2805601022654381485}
+  - {fileID: 4781845202513217629}
+  - {fileID: 9176179289342210618}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &341988873144712876
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7475451089527518081, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_Name
+      value: Battery Cover
+      objectReference: {fileID: 0}
+    - target: {fileID: 7475451089527518081, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+--- !u!4 &1549821852066358445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1242131283163781633, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+  m_PrefabInstance: {fileID: 341988873144712876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7133946149168549165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7475451089527518081, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
+  m_PrefabInstance: {fileID: 341988873144712876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8727800291476049200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7133946149168549165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!1001 &975964786694464477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 7416616165320126001, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_Name
+      value: Tires
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416616165320126001, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+--- !u!1 &7738960794408570348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7416616165320126001, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+  m_PrefabInstance: {fileID: 975964786694464477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2320854459397856050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738960794408570348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &9176179289342210618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8273962159881277927, guid: 9bd1111dae1bdb64dbf4a75a40c8c55f, type: 3}
+  m_PrefabInstance: {fileID: 975964786694464477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1239110336682121142
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 30412364347671308, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_Name
+      value: bolt 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 30412364347671308, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+--- !u!4 &1152850183426696716 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2219583483059614138, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+  m_PrefabInstance: {fileID: 1239110336682121142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1251507751784993978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 30412364347671308, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
+  m_PrefabInstance: {fileID: 1239110336682121142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2171305780957217822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251507751784993978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!1001 &1503596848976779477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397932942666291393, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_Name
+      value: Main screw
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397932942666291393, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+--- !u!4 &2805601022654381485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3617136097779328376, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+  m_PrefabInstance: {fileID: 1503596848976779477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3014388007147175956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4397932942666291393, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
+  m_PrefabInstance: {fileID: 1503596848976779477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4600100127027838894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3014388007147175956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!1001 &3323416535352172446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 3870830370436112257, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_Name
+      value: Battery screw small  cross
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870830370436112257, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+--- !u!1 &1993078188882788383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3870830370436112257, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+  m_PrefabInstance: {fileID: 3323416535352172446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1191917071158783474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993078188882788383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &8798362001376416124 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6054291612186791650, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
+  m_PrefabInstance: {fileID: 3323416535352172446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3699709591254019200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 2059564751999413660, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_Name
+      value: Right arm
+      objectReference: {fileID: 0}
+    - target: {fileID: 2059564751999413660, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+--- !u!1 &3444419733961179420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2059564751999413660, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+  m_PrefabInstance: {fileID: 3699709591254019200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2237458177704557569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3444419733961179420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &4781845202513217629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8143779871143355613, guid: b4d9729d716e18943af11e74522b4112, type: 3}
+  m_PrefabInstance: {fileID: 3699709591254019200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3946100991132837780
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1845666492936043887, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_Name
+      value: Cover
+      objectReference: {fileID: 0}
+    - target: {fileID: 1845666492936043887, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+--- !u!1 &3413238222149458683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1845666492936043887, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+  m_PrefabInstance: {fileID: 3946100991132837780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8481099937394951209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3413238222149458683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &4289470953920540078 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 955923013738433082, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
+  m_PrefabInstance: {fileID: 3946100991132837780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4080210328410559222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 2472157157440373655, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_Name
+      value: Battery
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472157157440373655, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+--- !u!4 &768469415241396191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3618069942881860905, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+  m_PrefabInstance: {fileID: 4080210328410559222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1932339438342820193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2472157157440373655, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
+  m_PrefabInstance: {fileID: 4080210328410559222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9017445663724643560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932339438342820193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!1001 &4648852486463577454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038105402283555826, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_Name
+      value: Container
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038105402283555826, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+--- !u!1 &2389253225191843484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7038105402283555826, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+  m_PrefabInstance: {fileID: 4648852486463577454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4503345296505715164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389253225191843484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &6741030881580091963 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2092196267561015125, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
+  m_PrefabInstance: {fileID: 4648852486463577454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5358173459213891354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013803353604340979, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_Name
+      value: Blades
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013803353604340979, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+--- !u!4 &666545444806289740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4835746506387218006, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+  m_PrefabInstance: {fileID: 5358173459213891354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2696162970181110761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8013803353604340979, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
+  m_PrefabInstance: {fileID: 5358173459213891354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5288465027057453327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2696162970181110761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!1001 &6983064764667275991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 3797708463416500957, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_Name
+      value: bolt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797708463416500957, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+--- !u!4 &3141766911931213520 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5436152869129964551, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+  m_PrefabInstance: {fileID: 6983064764667275991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6079014926660487178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3797708463416500957, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
+  m_PrefabInstance: {fileID: 6983064764667275991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &132405191701469846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6079014926660487178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!1001 &7409834030845436743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843446175004787069, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_Name
+      value: Left arm
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843446175004787069, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+--- !u!1 &4048114580982735418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6843446175004787069, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+  m_PrefabInstance: {fileID: 7409834030845436743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1729193995036092220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048114580982735418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &4275139034104720047 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6737768255635802600, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
+  m_PrefabInstance: {fileID: 7409834030845436743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7522555821981319501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 6054334822156662664, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_Name
+      value: Battery screw small  cross.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054334822156662664, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+--- !u!4 &1049968965764232834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7419471066192541647, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+  m_PrefabInstance: {fileID: 7522555821981319501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4350527647887046341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6054334822156662664, guid: 734f8cc394e4ff243839e8949125af12, type: 3}
+  m_PrefabInstance: {fileID: 7522555821981319501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6789512826776466827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4350527647887046341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!1001 &7630691914045531913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079521386775444506, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_Name
+      value: Blender Body
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079521386775444506, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+--- !u!1 &3430542336073849619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079521386775444506, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+  m_PrefabInstance: {fileID: 7630691914045531913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2843742090942168405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3430542336073849619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &7462680257218158414 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1041859811277158471, guid: 45a2a4b79ff131e40b9d36cbd717795f, type: 3}
+  m_PrefabInstance: {fileID: 7630691914045531913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8824325891740719883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1952532587161868711}
+    m_Modifications:
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222608046530308907, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_Name
+      value: Battery 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222608046530308907, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+      propertyPath: m_TagString
+      value: DroidPart
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+--- !u!1 &3606296967559639072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5222608046530308907, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+  m_PrefabInstance: {fileID: 8824325891740719883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6073654339323131878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3606296967559639072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172261693fb2a04184b310f592a7fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDroidPart: {fileID: 0}
+  isLocked: 0
+  prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
+  droidPartReferenceId: 
+--- !u!4 &7079108405773256683 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1749725643108785376, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
+  m_PrefabInstance: {fileID: 8824325891740719883}
+  m_PrefabAsset: {fileID: 0}
