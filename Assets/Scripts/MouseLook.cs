@@ -78,10 +78,16 @@ public class MouseLook : MonoBehaviour
         hand.Grab();
     }
 
-    // right arrow pressed
+    // ']' pressed
     public void OnChangeDroid(InputValue input)
     {
         levelManager.ChangeDroid();
+    }
+
+    // arrows pressed
+    public void OnRotateObject(InputValue input)
+    {
+        hand.RotateObject();
     }
 
 }
