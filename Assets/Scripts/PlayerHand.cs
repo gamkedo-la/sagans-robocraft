@@ -55,6 +55,14 @@ public class PlayerHand : MonoBehaviour
 
     }
 
+    public void RotateObject()
+    {
+        if (isGrabbing)
+        {
+            Debug.Log("rotate object");
+        }    
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (isGrabbing)

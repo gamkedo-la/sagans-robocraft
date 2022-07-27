@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "RotateObject",
+                    "type": "Button",
+                    "id": "dfd81ad4-a22f-4848-b162-c662bcb68a28",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -102,12 +111,23 @@
                 },
                 {
                     "name": "",
-                    "id": "901a8d4a-4ef0-452b-ba52-da2e9cfeef70",
-                    "path": "<Keyboard>/rightArrow",
+                    "id": "9ffd63ab-20a6-4dce-88ba-f6541cf3e70f",
+                    "path": "<Keyboard>/rightBracket",
                     "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "ChangeDroid",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59534508-4347-47f8-a89c-93feed2995fe",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateObject",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
