@@ -23219,16 +23219,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225159801}
-  m_LocalRotation: {x: -0.6963643, y: 0.6963643, z: 0.12278774, w: -0.12278774}
+  m_LocalRotation: {x: -0.7071068, y: 0.7071068, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1220127957219196826}
   - {fileID: 5816055693033790663}
   m_Father: {fileID: 543450652768378859}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 200, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -90}
 --- !u!1 &1228801867
 GameObject:
   m_ObjectHideFlags: 0
@@ -41413,8 +41413,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149045970257}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 1.246, y: 0.95, z: -0.076}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.478, y: 0.525, z: 0.247}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41422,7 +41422,7 @@ Transform:
   - {fileID: 2094759369}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &919132149045970257
 GameObject:
   m_ObjectHideFlags: 0
@@ -41481,18 +41481,6 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 919132149045970258}
         m_TargetAssemblyTypeName: OpenBook, Assembly-CSharp
@@ -41506,6 +41494,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
   m_LastSelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -41612,8 +41612,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.7308202, y: 2.5235713, z: 0.7136394}
-  m_Center: {x: 0.85999995, y: 3.9808517, z: 0.005870741}
+  m_Size: {x: 1.1252218, y: 5.4554462, z: 5.0851164}
+  m_Center: {x: 0.05720049, y: 2.0008218, z: -2.1798682}
 --- !u!23 &919132149045970262
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41960,7 +41960,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129790536134112278}
-  m_LocalRotation: {x: 0.7193398, y: -0, z: -0, w: 0.6946584}
+  m_LocalRotation: {x: 0.6990396, y: 0, z: 0, w: 0.715083}
   m_LocalPosition: {x: 0, y: 0.037299097, z: -0.025151372}
   m_LocalScale: {x: 121.57432, y: 105.8264, z: 0.19446927}
   m_ConstrainProportionsScale: 0
@@ -41968,7 +41968,7 @@ Transform:
   - {fileID: 5117505570813130063}
   m_Father: {fileID: 1225159802}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 92, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 88.7, y: 0, z: 0}
 --- !u!59 &5816055693033790664
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -41982,12 +41982,12 @@ HingeJoint:
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
-    spring: 0
+    spring: 200
     damper: 0
     targetPosition: 0
-  m_UseMotor: 1
+  m_UseMotor: 0
   m_Motor:
     targetVelocity: 200
     force: 100

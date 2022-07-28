@@ -10,7 +10,7 @@ public class OpenBook : MonoBehaviour
     void Start()
     {
         var myHinge = Cover.GetComponent<HingeJoint>();
-
+        Debug.Log("start function");
         myHinge.useMotor = false;
     }
 
