@@ -18,6 +18,7 @@ public class OpenBook : MonoBehaviour
     public void OpenSesame()
     {
         myHinge.useMotor = true;
+        myHinge.useSpring = false;
         Debug.Log("motor true?");
     }
 }

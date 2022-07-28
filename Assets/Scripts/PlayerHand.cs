@@ -39,6 +39,13 @@ public class PlayerHand : MonoBehaviour
                 isGrabbing = true;
                 touchedRB = touchedObject.GetComponent<Rigidbody>();
                 touchedRB.isKinematic = true;
+                OpenBook OBscript = touchedObject.GetComponent<OpenBook>();
+                if (OBscript){
+                    OBscript.OpenSesame();
+                }else{
+                    Debug.Log("no openbookscript found");
+                }
+                
             }
         }
     }
