@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 6973740082793314460}
   - component: {fileID: 4318074434085653603}
   m_Layer: 0
-  m_Name: repair_table (1)
+  m_Name: repair_table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
