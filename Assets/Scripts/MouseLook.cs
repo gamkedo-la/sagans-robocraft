@@ -84,10 +84,4 @@ public class MouseLook : MonoBehaviour
         levelManager.ChangeDroid();
     }
 
-    // arrows pressed
-    public void OnRotateObject(InputValue input)
-    {
-        hand.RotateObject();
-    }
-
 }

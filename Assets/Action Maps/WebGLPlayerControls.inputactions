@@ -31,15 +31,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "RotateObject",
-                    "type": "Button",
-                    "id": "dfd81ad4-a22f-4848-b162-c662bcb68a28",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -117,17 +108,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "ChangeDroid",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "59534508-4347-47f8-a89c-93feed2995fe",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": "",
-                    "action": "RotateObject",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
