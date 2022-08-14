@@ -15,6 +15,8 @@ public class LevelManager : MonoBehaviour
 
     public InputActionReference changeDroidReference;
 
+    private AudioManager audioManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class LevelManager : MonoBehaviour
             changeDroidReference.action.performed += VRChangeDroid;
         }
 
+        audioManager = GetComponent<AudioManager>();
         ResetDroidPuzzlesSolved();
         ChangeDroid();
 
