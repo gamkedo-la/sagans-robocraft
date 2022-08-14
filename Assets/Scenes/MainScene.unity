@@ -31563,6 +31563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1632698638}
   - component: {fileID: 1632698639}
+  - component: {fileID: 1632698640}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -31614,6 +31615,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0cba5754b0e4b74d8103785e083614c, type: 2}
   currentDroidPuzzle: {fileID: 0}
   changeDroidReference: {fileID: 3987049595990654611, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &1632698640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632698637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671cb41b8c398074b9be74bd3d5e4bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 2002432717}
 --- !u!1 &1637550298
 GameObject:
   m_ObjectHideFlags: 0
