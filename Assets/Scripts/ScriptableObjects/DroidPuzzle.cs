@@ -14,4 +14,7 @@ public class DroidPuzzle : ScriptableObject
     public Vector3 referenceDroidPosition;
     public Vector3 targetDroidPosition;
     public List<Vector3> droidPartPostions;
+
+    //audio
+    public AudioClip puzzleAudioClip;
 }
