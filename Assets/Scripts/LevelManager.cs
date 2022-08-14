@@ -140,6 +140,25 @@ public class LevelManager : MonoBehaviour
                 part.prequisiteDroidPart = instantiatedParts[part.prerequisiteDroidPartId].gameObject;
             }
         }
+
+        if (currentDroidPuzzle.puzzleAudioClip != null)
+        {
+            PlayPuzzleAudio(currentDroidPuzzle.puzzleAudioClip);
+        }
+        else
+        {
+            StopPuzzleAudio();
+        }
+    }
+
+    void PlayPuzzleAudio(AudioClip clip)
+    {
+        audioManager.PlayAudio(clip, true);
+    }
+
+    void StopPuzzleAudio()
+    {
+        audioManager.StopAudio();
     }
 
     // https://gamedev.stackexchange.com/questions/174398/how-find-child-using-tag
