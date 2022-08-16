@@ -13,7 +13,8 @@ public class PauseGame : MonoBehaviour
     void Start()
     {
         locomotionSystem = transform.Find("Locomotion System");
-        Debug.Log(locomotionSystem.name);
+        //Debug.Log(locomotionSystem.name);
+        Debug.Log("welcome to the third Dean-mension!");
     }
 
     // Update is called once per frame
