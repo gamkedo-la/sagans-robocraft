@@ -112,7 +112,8 @@ public class LevelManager : MonoBehaviour
         List<DroidPart> droidParts = currentDroidPuzzle.droidPartList;
 
         this.targetDroid = Instantiate(targetDroid, currentDroidPuzzle.targetDroidPosition, targetDroid.transform.rotation);
-        this.referenceDroid = Instantiate(referenceDroid, currentDroidPuzzle.referenceDroidPosition, referenceDroid.transform.rotation);
+        //disable rendering of reference droid - this could be used for an "easy mode"
+        //this.referenceDroid = Instantiate(referenceDroid, currentDroidPuzzle.referenceDroidPosition, referenceDroid.transform.rotation);
         this.allDroidParts.Clear();
         List<Transform> hiddenPartsInTarget = FindChildrenWithTags(this.targetDroid.transform.root, "DroidPart");
         Dictionary<string, DroidPart> instantiatedParts = new Dictionary<string, DroidPart>();
