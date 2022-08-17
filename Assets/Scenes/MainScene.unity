@@ -31626,6 +31626,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: edbe470784425484196b7bc5443c2476, type: 2}
   - {fileID: 11400000, guid: 7744b6bf301a3984ebd0355bda22c27d, type: 2}
   - {fileID: 11400000, guid: 080514e868fd4b14ca803eef177e4458, type: 2}
+  - {fileID: 11400000, guid: 027da78a729ae7c489991161e2117784, type: 2}
   currentDroidPuzzle: {fileID: 0}
   changeDroidReference: {fileID: 3987049595990654611, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &1632698640
