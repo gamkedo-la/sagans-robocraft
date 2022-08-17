@@ -46,6 +46,7 @@ public class LevelManager : MonoBehaviour
     }
     public void ChangeDroid()
     {
+        DestroyImmediate(targetDroid);
         currentDroidPuzzleIndex = currentDroidPuzzleIndex + 1;
         if (currentDroidPuzzleIndex < droidPuzzles.Count)
         {
