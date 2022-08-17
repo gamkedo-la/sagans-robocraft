@@ -19,7 +19,8 @@ MonoBehaviour:
   - {fileID: -4575389208776519513, guid: d04194ab47c69a040bea3570f5aef911, type: 3}
   - {fileID: -3876079984059614275, guid: 81c630bde4f276440a60880be8d6ae9d, type: 3}
   referenceDroidPosition: {x: 0.6081898, y: 0.78677475, z: 1.4344767}
-  targetDroidPosition: {x: 0.4727969, y: 0.7867746, z: 2.08924}
+  targetDroidPosition: {x: 0.816, y: 0.746, z: -3.278}
   droidPartPostions:
-  - {x: 0.5948121, y: 0.56209266, z: 2.5837045}
-  - {x: 0.45598534, y: 0.518991, z: 2.6841369}
+  - {x: 1.021, y: 0.56209266, z: -0.856}
+  - {x: 0.49583364, y: 0.519, z: -0.994}
+  puzzleAudioClip: {fileID: 0}
