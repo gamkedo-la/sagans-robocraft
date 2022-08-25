@@ -18,7 +18,6 @@ public class PauseGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         locomotionSystem = transform.Find("Locomotion System");
         contMotion = locomotionSystem.GetComponent<ContinuousMoveProviderBase>();
         snapTurn = locomotionSystem.GetComponent<SnapTurnProviderBase>();

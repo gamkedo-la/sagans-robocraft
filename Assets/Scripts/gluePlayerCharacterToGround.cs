@@ -17,8 +17,14 @@ public class gluePlayerCharacterToGround : MonoBehaviour
         Vector3 flatForward = transform.forward;
         flatForward.y = 0.0f;      
         */
-        Vector3 glueToGround = transform.up;
-        glueToGround.y = 0.0f;
-        Debug.Log(transform.up);
+        Vector3 transPos = transform.position;
+        transPos.y = 0.0f;
+        Debug.Log("playerRig position is: " + transform.position.y);
+        Transform xrRig = transform.Find("XR Rig");
+        Vector3 xrRigPos = xrRig.position; 
+        xrRigPos.y = 0.0f;
+        Debug.Log("XRRig position is: " + xrRig.position.y);
+    
+        
     }
 }
