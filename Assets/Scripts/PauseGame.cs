@@ -10,6 +10,7 @@ public class PauseGame : MonoBehaviour
     private Transform locomotionSystem;
     private Transform cameraOffset;
     private Transform rightHandController;
+    private GameObject rightHandControllerGameObject;
     private ContinuousMoveProviderBase contMotion;
     private SnapTurnProviderBase snapTurn;
 
@@ -24,12 +25,7 @@ public class PauseGame : MonoBehaviour
 
         cameraOffset = transform.Find("Camera Offset");
         rightHandController = cameraOffset.Find("RightHand Controller");
-
-        //rightHandController.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
-        //idk why the below *has* to be assigned to a variable
-        //currently you need to either convert/find the gameObject attached to rightHandController
-        XRDirectInteractor dirInteractor = gameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
-
+        rightHandControllerGameObject = rightHandController.gameObject;
 
         Debug.Log(cameraOffset);
         Debug.Log(rightHandController);
@@ -37,9 +33,12 @@ public class PauseGame : MonoBehaviour
         if(teleportMode){
             contMotion.enabled = false;
             snapTurn.enabled = true;
+            XRRayInteractor rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
+
         } else {
             contMotion.enabled = true;
             snapTurn.enabled = false;
+            XRDirectInteractor dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
         }
         //Debug.Log(contMotion.enabled);
         //Debug.Log(snapTurn.enabled);
