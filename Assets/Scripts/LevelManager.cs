@@ -48,6 +48,10 @@ public class LevelManager : MonoBehaviour
     public void ChangeDroid()
     {
         DestroyImmediate(targetDroid);
+        foreach(DroidPart part in this.allDroidParts)
+        {
+            Destroy(part.gameObject);
+        }
         currentDroidPuzzleIndex = currentDroidPuzzleIndex + 1;
         if (currentDroidPuzzleIndex < droidPuzzles.Count)
         {
