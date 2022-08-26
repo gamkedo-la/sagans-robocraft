@@ -10,21 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ceef452efcea1441889d8c3869a5e3a, type: 3}
-  m_Name: Blender-UltimateVariation
+  m_Name: Blender-Variation2
   m_EditorClassIdentifier: 
   isSolved: 0
   referenceDroid: {fileID: 1176313234862899997, guid: 579ebfe2750c6d447bad2c708ed634d1, type: 3}
-  targetDroid: {fileID: 1176313234862899997, guid: b643c77f284f24148b5ed0ef32453b09, type: 3}
+  targetDroid: {fileID: 1176313234862899997, guid: 276abb2e712a8bf40ac73b9377426ada, type: 3}
   droidPartList:
   - {fileID: -2377080830481091183, guid: d97ab930b8728cd44bc69e3c368344c5, type: 3}
   - {fileID: 1297765129571475841, guid: ca85dc6199519b743bd7319b01c3c336, type: 3}
   - {fileID: 1781670229314722201, guid: e138bc57a624926468e8f0b71da74e50, type: 3}
-  - {fileID: -7725073042458943478, guid: 25f5dcc521d7a5f44930e47059e8b4ac, type: 3}
   - {fileID: 6893085805819491344, guid: c82c7b4cd2a1c694480028b440a02fe0, type: 3}
   - {fileID: 5713424331092353353, guid: 298ef632b2f2a794dac54c6984dc9411, type: 3}
-  - {fileID: 1786534922081725697, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
-  - {fileID: 8852295198870705702, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
-  - {fileID: 3363941000341774077, guid: 0f63828f52bf50f4abf04a1f05100b39, type: 3}
   - {fileID: 2295726576922726392, guid: 860be011297bc9d4b93e460d0e856fd2, type: 3}
   - {fileID: 91315889271117674, guid: b4d9729d716e18943af11e74522b4112, type: 3}
   - {fileID: 1895064203008415846, guid: 631fb1727833b5d45acb49d82162967f, type: 3}
@@ -36,12 +32,8 @@ MonoBehaviour:
   - {x: 1.202209, y: 0.38666865, z: 0.17052418}
   - {x: 1.0282998, y: 0.33801776, z: 0.2197194}
   - {x: 1.0583116, y: 0.37327528, z: -0.00010150671}
-  - {x: 1.021676, y: 0.113842815, z: 0.20806766}
   - {x: 0.57953274, y: 0.559548, z: 0.29234833}
   - {x: 0.4044652, y: 0.55954796, z: 0.1484549}
-  - {x: 0.8771434, y: 0.14683801, z: -0.39045292}
-  - {x: 0.34934855, y: -0.25229788, z: -0.04963684}
-  - {x: 1.156, y: 0.407, z: -0.582}
   - {x: 0.72582453, y: 0.575, z: -0.405}
   - {x: 0.881, y: 0.425, z: -0.491}
   - {x: 0.384, y: 0.35, z: -0.527}
