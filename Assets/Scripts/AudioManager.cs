@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioSource fxAudioSource;
+    public AudioSource winPuzzleAudioSource;
     public AudioClip[] fxClips;
     
     public void PlayAudio()
@@ -36,6 +37,11 @@ public class AudioManager : MonoBehaviour
         int randomInt = Random.Range(0, fxClips.Length);
         fxAudioSource.clip = fxClips[randomInt];
         fxAudioSource.Play();
+    }
+
+    public void PlayWinPuzzleAudio()
+    {
+        winPuzzleAudioSource.Play();
     }
 
 }

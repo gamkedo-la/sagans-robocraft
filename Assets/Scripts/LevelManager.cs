@@ -14,8 +14,6 @@ public class LevelManager : MonoBehaviour
     private List<DroidPart> allDroidParts = new List<DroidPart>();
 
     public InputActionReference changeDroidReference;
-    public AudioClip puzzleWinAudioClip;
-    public AudioSource winAudioSource;
 
     private AudioManager audioManager;
 
@@ -89,13 +87,10 @@ public class LevelManager : MonoBehaviour
             Debug.Log("droid locked!");
             currentDroidPuzzle.isSolved = true;
             //play win sound
-            if (puzzleWinAudioClip != null)
-            {
-                StopPuzzleAudio();
-                PlayPuzzleWinAudio();
-                ChangeDroid();
-            }
+            StopPuzzleAudio();
+            PlayPuzzleWinAudio();
             
+            ChangeDroid();
         }
     }
 
@@ -178,7 +173,7 @@ public class LevelManager : MonoBehaviour
 
     void PlayPuzzleWinAudio()
     {
-        winAudioSource.Play();
+        audioManager.PlayWinPuzzleAudio();
     }
 
     // https://gamedev.stackexchange.com/questions/174398/how-find-child-using-tag
