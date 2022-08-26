@@ -23,4 +23,4 @@ MonoBehaviour:
   droidPartPostions:
   - {x: 1.021, y: 0.56209266, z: -0.856}
   - {x: 0.49583364, y: 0.519, z: -0.994}
-  puzzleAudioClip: {fileID: 0}
+  puzzleAudioClip: {fileID: 8300000, guid: 3248f24c0e4b87548b34a32bd8fb9747, type: 3}

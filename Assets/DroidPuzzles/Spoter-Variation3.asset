@@ -29,4 +29,4 @@ MonoBehaviour:
   - {x: 0.5387342, y: 0.57591933, z: 0.22572218}
   - {x: 0.5398686, y: 0.518991, z: -0.16663861}
   - {x: 0.91813004, y: 0.56209266, z: -0.11433324}
-  puzzleAudioClip: {fileID: 0}
+  puzzleAudioClip: {fileID: 8300000, guid: 1e8ce10419a397e4fa656c86ee85e59c, type: 3}
