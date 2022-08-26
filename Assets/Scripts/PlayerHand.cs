@@ -39,6 +39,11 @@ public class PlayerHand : MonoBehaviour
                 isGrabbing = true;
                 touchedRB = touchedObject.GetComponent<Rigidbody>();
                 touchedRB.isKinematic = true;
+                Collider [] colliders = touchedObject.GetComponentsInChildren<Collider>();
+                foreach (Collider collider in colliders)
+                {
+                    collider.enabled = false;
+                }    
                 OpenBook OBscript = touchedObject.GetComponent<OpenBook>();
                 if (OBscript){
                     OBscript.OpenSesame();
@@ -54,6 +59,11 @@ public class PlayerHand : MonoBehaviour
     {
         isGrabbing = false;
         touchedRB.isKinematic = false; //check position after this
+        Collider[] colliders = touchedObject.GetComponentsInChildren<Collider>();
+        foreach (Collider collider in colliders)
+        {
+            collider.enabled = true;
+        }
         if (touchedObject.tag == "DroidPart")
         {
             touchedObject.GetComponent<DroidPart>()?.checkPosition();

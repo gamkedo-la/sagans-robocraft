@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1231896250045541689}
   - component: {fileID: 1231896250045541636}
   - component: {fileID: 8667881334400640928}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: capsule
   m_TagString: DroidPart
   m_Icon: {fileID: 0}
@@ -104,6 +104,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
   droidPartReferenceId: capsule
 --- !u!54 &1231896250045541638
 Rigidbody:
@@ -277,6 +278,7 @@ MonoBehaviour:
   correctDroidPart: {fileID: 0}
   isLocked: 0
   prequisiteDroidPart: {fileID: 0}
+  prerequisiteDroidPartId: 
   droidPartReferenceId: 
 --- !u!1 &2412876110887447615
 GameObject:
@@ -289,7 +291,7 @@ GameObject:
   - component: {fileID: 5593892142336867896}
   - component: {fileID: 6932297185775760669}
   - component: {fileID: 5743783834809114523}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: capsule.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
