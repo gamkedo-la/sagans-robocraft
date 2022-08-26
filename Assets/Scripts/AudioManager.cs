@@ -31,4 +31,11 @@ public class AudioManager : MonoBehaviour
         audioSource.Pause();
     }
 
+    public void PlayRandomRepairFX()
+    {
+        int randomInt = Random.Range(0, fxClips.Length);
+        fxAudioSource.clip = fxClips[randomInt];
+        fxAudioSource.Play();
+    }
+
 }

@@ -43,6 +43,9 @@ public class DroidPart : MonoBehaviour
                 Rigidbody rb = gameObject.GetComponent<Rigidbody>();
                 rb.isKinematic = true;
                 isLocked = true;
+
+                AudioManager audioManager = FindObjectOfType<AudioManager>();//GetComponent<AudioManager>();
+                audioManager.PlayRandomRepairFX();
             }
         }
     }
