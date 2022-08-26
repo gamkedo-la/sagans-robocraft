@@ -24365,7 +24365,6 @@ MonoBehaviour:
   lookSpeed: 1
   cameraTransform: {fileID: 780439479}
   levelManager: {fileID: 0}
-  playerStepAudio: {fileID: 0}
 --- !u!54 &1230934860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32133,8 +32132,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 027da78a729ae7c489991161e2117784, type: 2}
   currentDroidPuzzle: {fileID: 0}
   changeDroidReference: {fileID: 3987049595990654611, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  puzzleWinAudioClip: {fileID: 8300000, guid: 457ea791d52c7204cbcf3e89de8e229e, type: 3}
-  winAudioSource: {fileID: 1101454204}
 --- !u!114 &1632698640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32149,9 +32146,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 2002432717}
   fxAudioSource: {fileID: 1196640645}
+  winPuzzleAudioSource: {fileID: 1101454204}
+  playerStepAudioSource: {fileID: 766107331}
   fxClips:
-  - {fileID: 8300000, guid: decf64bab2a441e4181691137789afc0, type: 3}
-  - {fileID: 8300000, guid: 8439f75f0d9c76440bd0583092d1faad, type: 3}
   - {fileID: 8300000, guid: 7d44ab80a5f00354e932435d60fc62bf, type: 3}
 --- !u!1 &1637550298
 GameObject:

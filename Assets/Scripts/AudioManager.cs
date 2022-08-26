@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource audioSource;
     public AudioSource fxAudioSource;
     public AudioSource winPuzzleAudioSource;
+    public AudioSource playerStepAudioSource;
     public AudioClip[] fxClips;
     
     public void PlayAudio()
@@ -44,4 +45,16 @@ public class AudioManager : MonoBehaviour
         winPuzzleAudioSource.Play();
     }
 
+    public void ToggleMute()
+    {
+        audioSource.mute = !audioSource.mute;
+        fxAudioSource.mute = !fxAudioSource.mute;
+        winPuzzleAudioSource.mute = !winPuzzleAudioSource.mute;
+        playerStepAudioSource.mute = !playerStepAudioSource.mute;
+    }
+
+    public void PlayPlayerStepAudio()
+    {
+        playerStepAudioSource.Play();
+    }
 }
