@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 1786534922081725697, guid: ef3353294730af641b9a8f92787b7a81, type: 3}
   - {fileID: 8852295198870705702, guid: 871a092e56be7b34d8f87f6ff716a9fb, type: 3}
   referenceDroidPosition: {x: -2.913, y: 0.865, z: 7.799}
-  targetDroidPosition: {x: 0.816, y: 0.746, z: -3.278}
+  targetDroidPosition: {x: 0.816, y: 0.6, z: -3.278}
   droidPartPostions:
   - {x: 1.021676, y: 0.113842815, z: 0.20806766}
   - {x: 0.8771434, y: 0.14683801, z: -0.39045292}
