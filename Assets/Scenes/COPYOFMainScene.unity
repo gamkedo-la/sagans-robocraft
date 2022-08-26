@@ -23298,7 +23298,6 @@ MonoBehaviour:
   lookSpeed: 1
   cameraTransform: {fileID: 780439479}
   levelManager: {fileID: 0}
-  playerStepAudio: {fileID: 0}
 --- !u!54 &1230934860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37316,7 +37315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPaused: 0
-  teleportMode: 0
+  teleportMode: 1
 --- !u!1 &1950330022
 GameObject:
   m_ObjectHideFlags: 0
