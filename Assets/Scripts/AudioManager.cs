@@ -5,6 +5,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public AudioSource audioSource;
+    public AudioSource fxAudioSource;
+    public AudioClip[] fxClips;
     
     public void PlayAudio()
     {
