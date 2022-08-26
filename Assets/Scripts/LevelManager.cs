@@ -15,6 +15,7 @@ public class LevelManager : MonoBehaviour
 
     public InputActionReference changeDroidReference;
     public AudioClip puzzleWinAudioClip;
+    public AudioSource winAudioSource;
 
     private AudioManager audioManager;
 
@@ -90,9 +91,11 @@ public class LevelManager : MonoBehaviour
             //play win sound
             if (puzzleWinAudioClip != null)
             {
+                StopPuzzleAudio();
                 PlayPuzzleWinAudio();
+                ChangeDroid();
             }
-            ChangeDroid();
+            
         }
     }
 
@@ -175,7 +178,7 @@ public class LevelManager : MonoBehaviour
 
     void PlayPuzzleWinAudio()
     {
-        audioManager.PlayAudio(puzzleWinAudioClip, false);
+        winAudioSource.Play();
     }
 
     // https://gamedev.stackexchange.com/questions/174398/how-find-child-using-tag
