@@ -3353,6 +3353,7 @@ GameObject:
   - component: {fileID: 1456939261}
   - component: {fileID: 1456939260}
   - component: {fileID: 1456939259}
+  - component: {fileID: 1456939262}
   m_Layer: 0
   m_Name: Push
   m_TagString: Untagged
@@ -3501,6 +3502,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.72746754, y: 1.4539878, z: 0.7241692}
   m_Center: {x: -0.018741451, y: 0.22699392, z: 0.0058562574}
+--- !u!114 &1456939262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456939257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f330a30a0f76b54d82ecaa12455a933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: 0.1
+  deadZone: 0.025
+  onPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  onReleased:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1469377264
 GameObject:
   m_ObjectHideFlags: 0
