@@ -11,12 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScene.unity
     guid: 78d7fd66f174a184aa0524c80345fe51
   - enabled: 0
     path: Assets/Scenes/COPYOFMainScene.unity
     guid: a00e2374b237f4e7cad0d5175c60ef52
+  - enabled: 1
+    path: Assets/Scenes/MainMenuVR.unity
+    guid: 60f8d7f8a6e35fa46bc46f2df747dfc0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d21c5fdd65fcb7b459edb92f2a150a67, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7eb95b68d132fc04c98d70137116adc9, type: 2}
