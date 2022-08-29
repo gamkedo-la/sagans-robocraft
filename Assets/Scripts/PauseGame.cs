@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.InputSystem;
+
 public class PauseGame : MonoBehaviour
 {
     public bool isPaused = false;
@@ -17,10 +19,14 @@ public class PauseGame : MonoBehaviour
     private SnapTurnProviderBase snapTurn;
     private ContinuousTurnProviderBase contTurn;
 
+    public InputActionReference pauseGameActionReference;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        pauseGameActionReference.action.performed += pauseGameAction;
+
         locomotionSystem = transform.Find("Locomotion System");
         
         teleProvider = locomotionSystem.GetComponent<TeleportationProvider>();
@@ -50,6 +56,11 @@ public class PauseGame : MonoBehaviour
             XRDirectInteractor dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
         }
 
+    }
+
+    private void pauseGameAction(InputAction.CallbackContext obj)
+    {
+        Debug.Log("hello world");
     }
 
     // Update is called once per frame
