@@ -20,13 +20,13 @@ public class gluePlayerCharacterToGround : MonoBehaviour
         Vector3 transPos = transform.position;
         transPos.y = 0.0f;
         transform.position = transPos;
-        Debug.Log("playerRig position is: " + transform.position.y);
+        //Debug.Log("playerRig position is: " + transform.position.y);
 
         Transform xrRig = transform.Find("XR Rig");
         Vector3 xrRigPos = xrRig.position; 
         xrRigPos.y = 0.0f;
         xrRig.position = xrRigPos;
-        Debug.Log("XRRig position is: " + xrRig.position.y);
+        //Debug.Log("XRRig position is: " + xrRig.position.y);
     
         
     }
