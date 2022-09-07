@@ -41,8 +41,6 @@ public class PauseGame : MonoBehaviour
         cameraOffset = transform.Find("Camera Offset");
         rightHandController = cameraOffset.Find("RightHand Controller");
         rightHandControllerGameObject = rightHandController.gameObject;
-
-        Debug.Log(rightHandController);
         
         if(teleportMode){
             teleProvider.enabled = true;
@@ -59,27 +57,55 @@ public class PauseGame : MonoBehaviour
             dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
         }
 
-        Debug.Log(dirInteractor);
-        Debug.Log(rayInteractor);
-
     }
 
     private void pauseGameAction(InputAction.CallbackContext obj)
     {
+        /*
         if(teleportMode){
             teleportMode = false;
         }
         else if (!teleportMode){
             teleportMode = true;
         }
+        */
 
+        toggleTeleportMode();
 
+    }
+
+    private void toggleTeleportMode(){
+        if(teleportMode){
+            teleProvider.enabled = true;
+            contMotion.enabled = false;
+            snapTurn.enabled = true;
+            contTurn.enabled = false;
+            if(dirInteractor){
+	            Destroy(dirInteractor);
+            }
+            rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
+            Debug.Log(dirInteractor);
+            Debug.Log(rayInteractor);
+
+        } else {
+            teleProvider.enabled = false;
+            contMotion.enabled = true;
+            snapTurn.enabled = false;
+            contTurn.enabled = true;
+            if(rayInteractor){
+	            Destroy(rayInteractor);
+            }
+            XRDirectInteractor dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
+            Debug.Log(dirInteractor);
+            Debug.Log(rayInteractor);
+        }  
+        teleportMode = !teleportMode;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        /*
         if(teleportMode){
             teleProvider.enabled = true;
             contMotion.enabled = false;
@@ -104,5 +130,6 @@ public class PauseGame : MonoBehaviour
             Debug.Log(dirInteractor);
             Debug.Log(rayInteractor);
         }   
+        */
     }
 }
