@@ -75,7 +75,18 @@ public class PauseGame : MonoBehaviour
     }
 
     private void toggleTeleportMode(){
+
+        //i reversed the code below, but i'm still seeing "can't add x, can only have one XRbase"
         if(teleportMode){
+            teleProvider.enabled = false;
+            contMotion.enabled = true;
+            snapTurn.enabled = false;
+            contTurn.enabled = true;
+            if(rayInteractor){
+	            Destroy(rayInteractor);
+            }
+            dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
+        } else {
             teleProvider.enabled = true;
             contMotion.enabled = false;
             snapTurn.enabled = true;
@@ -84,20 +95,7 @@ public class PauseGame : MonoBehaviour
 	            Destroy(dirInteractor);
             }
             rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
-            Debug.Log(dirInteractor);
-            Debug.Log(rayInteractor);
 
-        } else {
-            teleProvider.enabled = false;
-            contMotion.enabled = true;
-            snapTurn.enabled = false;
-            contTurn.enabled = true;
-            if(rayInteractor){
-	            Destroy(rayInteractor);
-            }
-            XRDirectInteractor dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
-            Debug.Log(dirInteractor);
-            Debug.Log(rayInteractor);
         }  
         teleportMode = !teleportMode;
     }
