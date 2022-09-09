@@ -32,6 +32,8 @@ public class PauseGame : MonoBehaviour
      object.SetActive(true);
     */
 
+    //pasting this in update gives me a red squiggle for `yield` - doesn't exist in this namespace
+    //additionally WaitForSeconds is reading as a local function...am i missing a namespace
     /*
      movementModeText.SetActive(false);
      yield WaitForSeconds(10);
@@ -42,7 +44,6 @@ public class PauseGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         pauseGameActionReference.action.performed += pauseGameAction;
 
         locomotionSystem = transform.Find("Locomotion System");
@@ -125,8 +126,6 @@ public class PauseGame : MonoBehaviour
 	            Destroy(dirInteractor);
             }
             rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
-            Debug.Log(dirInteractor);
-            Debug.Log(rayInteractor);
 
         } else {
             teleProvider.enabled = false;
@@ -137,8 +136,6 @@ public class PauseGame : MonoBehaviour
 	            Destroy(rayInteractor);
             }
             XRDirectInteractor dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
-            Debug.Log(dirInteractor);
-            Debug.Log(rayInteractor);
         }   
     }
 }
