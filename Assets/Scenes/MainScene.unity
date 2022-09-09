@@ -38947,6 +38947,7 @@ MonoBehaviour:
   isPaused: 0
   teleportMode: 0
   pauseGameActionReference: {fileID: -2487747633542600698, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  movementModeText: {fileID: 489675373}
 --- !u!1 &1950330022
 GameObject:
   m_ObjectHideFlags: 0

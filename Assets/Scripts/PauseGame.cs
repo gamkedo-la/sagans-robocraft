@@ -23,11 +23,26 @@ public class PauseGame : MonoBehaviour
     XRDirectInteractor dirInteractor;
     XRRayInteractor rayInteractor;
 
+    public GameObject movementModeText;
+
+    //exmaple code to turn an object off on a timer
+    /*
+     object.SetActive(false);
+     yield WaitForSeconds(10);
+     object.SetActive(true);
+    */
+
+    /*
+     movementModeText.SetActive(false);
+     yield WaitForSeconds(10);
+     movementModeText.SetActive(true);
+    */
 
 
     // Start is called before the first frame update
     void Start()
     {
+
         pauseGameActionReference.action.performed += pauseGameAction;
 
         locomotionSystem = transform.Find("Locomotion System");
@@ -61,16 +76,14 @@ public class PauseGame : MonoBehaviour
 
     private void pauseGameAction(InputAction.CallbackContext obj)
     {
-        /*
         if(teleportMode){
             teleportMode = false;
         }
         else if (!teleportMode){
             teleportMode = true;
         }
-        */
 
-        toggleTeleportMode();
+        //toggleTeleportMode();
 
     }
 
@@ -103,7 +116,6 @@ public class PauseGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
         if(teleportMode){
             teleProvider.enabled = true;
             contMotion.enabled = false;
@@ -128,6 +140,5 @@ public class PauseGame : MonoBehaviour
             Debug.Log(dirInteractor);
             Debug.Log(rayInteractor);
         }   
-        */
     }
 }
