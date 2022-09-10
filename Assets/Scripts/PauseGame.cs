@@ -114,9 +114,16 @@ public class PauseGame : MonoBehaviour
         teleportMode = !teleportMode;
     }
 
+    IEnumerator displayMovementModeText(){
+        movementModeText.SetActive(true);
+        yield return new WaitForSeconds(2.0f);
+        movementModeText.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
+        
         if(teleportMode){
             teleProvider.enabled = true;
             contMotion.enabled = false;
@@ -126,6 +133,7 @@ public class PauseGame : MonoBehaviour
 	            Destroy(dirInteractor);
             }
             rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
+            StartCoroutine(displayMovementModeText());
 
         } else {
             teleProvider.enabled = false;
@@ -136,6 +144,7 @@ public class PauseGame : MonoBehaviour
 	            Destroy(rayInteractor);
             }
             XRDirectInteractor dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
+            StartCoroutine(displayMovementModeText());
         }   
     }
 }
