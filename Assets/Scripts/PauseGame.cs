@@ -24,6 +24,7 @@ public class PauseGame : MonoBehaviour
     XRRayInteractor rayInteractor;
 
     public GameObject movementModeText;
+    private TextMesh movementModeTextMesh;
 
     //exmaple code to turn an object off on a timer
     /*
@@ -44,6 +45,13 @@ public class PauseGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        //trying to see if i can access the text mesh dynamically 
+        /*
+        movementModeTextMesh = movementModeText.GetComponent<TextMesh>();
+        movementModeTextMesh.text = "hello world";
+        */
+
         pauseGameActionReference.action.performed += pauseGameAction;
 
         locomotionSystem = transform.Find("Locomotion System");
@@ -79,9 +87,11 @@ public class PauseGame : MonoBehaviour
     {
         if(teleportMode){
             teleportMode = false;
+            StartCoroutine(displayMovementModeText());
         }
         else if (!teleportMode){
             teleportMode = true;
+            StartCoroutine(displayMovementModeText());
         }
 
         //toggleTeleportMode();
@@ -129,22 +139,20 @@ public class PauseGame : MonoBehaviour
             contMotion.enabled = false;
             snapTurn.enabled = true;
             contTurn.enabled = false;
-            if(dirInteractor){
-	            Destroy(dirInteractor);
+            if(rightHandControllerGameObject.GetComponent<XRDirectInteractor>()){
+	            Destroy(rightHandControllerGameObject.GetComponent<XRDirectInteractor>());
             }
             rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
-            StartCoroutine(displayMovementModeText());
 
         } else {
             teleProvider.enabled = false;
             contMotion.enabled = true;
             snapTurn.enabled = false;
             contTurn.enabled = true;
-            if(rayInteractor){
-	            Destroy(rayInteractor);
+            if(rightHandControllerGameObject.GetComponent<XRRayInteractor>()){
+	            Destroy(rightHandControllerGameObject.GetComponent<XRRayInteractor>());
             }
-            XRDirectInteractor dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
-            StartCoroutine(displayMovementModeText());
+            dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
         }   
     }
 }
