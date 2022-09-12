@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PauseGame : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class PauseGame : MonoBehaviour
     XRRayInteractor rayInteractor;
 
     public GameObject movementModeText;
-    private TextMesh movementModeTextMesh;
+    private TextMeshProUGUI movementModeTextMesh;
 
     //exmaple code to turn an object off on a timer
     /*
@@ -45,12 +46,8 @@ public class PauseGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        //trying to see if i can access the text mesh dynamically 
-        /*
-        movementModeTextMesh = movementModeText.GetComponent<TextMesh>();
-        movementModeTextMesh.text = "hello world";
-        */
+        
+        movementModeTextMesh = movementModeText.GetComponent<TextMeshProUGUI>();
 
         pauseGameActionReference.action.performed += pauseGameAction;
 
@@ -87,10 +84,12 @@ public class PauseGame : MonoBehaviour
     {
         if(teleportMode){
             teleportMode = false;
+            movementModeTextMesh.text = "teleport mode";
             StartCoroutine(displayMovementModeText());
         }
         else if (!teleportMode){
             teleportMode = true;
+            movementModeTextMesh.text = "free movement mode";
             StartCoroutine(displayMovementModeText());
         }
 
