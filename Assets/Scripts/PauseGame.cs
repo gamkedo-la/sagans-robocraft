@@ -84,12 +84,12 @@ public class PauseGame : MonoBehaviour
     {
         if(teleportMode){
             teleportMode = false;
-            movementModeTextMesh.text = "teleport mode";
+            movementModeTextMesh.text = "free movement mode";
             StartCoroutine(displayMovementModeText());
         }
         else if (!teleportMode){
             teleportMode = true;
-            movementModeTextMesh.text = "free movement mode";
+            movementModeTextMesh.text = "teleport mode";
             StartCoroutine(displayMovementModeText());
         }
 
