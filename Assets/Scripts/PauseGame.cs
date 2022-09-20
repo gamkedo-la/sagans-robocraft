@@ -9,6 +9,7 @@ public class PauseGame : MonoBehaviour
 {
     public bool isPaused = false;
     public bool teleportMode = false;
+    private bool teleportModeWas;
 
     private Transform locomotionSystem;
     private Transform cameraOffset;
@@ -57,27 +58,33 @@ public class PauseGame : MonoBehaviour
         contMotion = locomotionSystem.GetComponent<ContinuousMoveProviderBase>();
         snapTurn = locomotionSystem.GetComponent<SnapTurnProviderBase>();
         contTurn = locomotionSystem.GetComponent<ContinuousTurnProviderBase>();
-        
-
+    
         cameraOffset = transform.Find("Camera Offset");
         rightHandController = cameraOffset.Find("RightHand Controller");
         rightHandControllerGameObject = rightHandController.gameObject;
+        dirInteractor = rightHandControllerGameObject.GetComponentInChildren<XRDirectInteractor>();
+        rayInteractor = rightHandControllerGameObject.GetComponentInChildren<XRRayInteractor>();
+
+        rayInteractor.gameObject.SetActive(false);
+        dirInteractor.gameObject.SetActive(false);
         
         if(teleportMode){
             teleProvider.enabled = true;
             contMotion.enabled = false;
             snapTurn.enabled = true;
             contTurn.enabled = false;
-            rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
+            //rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
+            rayInteractor.gameObject.SetActive(true);
 
         } else {
             teleProvider.enabled = false;
             contMotion.enabled = true;
             snapTurn.enabled = false;
             contTurn.enabled = true;
-            dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
+            //dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
+            dirInteractor.gameObject.SetActive(true);
         }
-
+        teleportModeWas = teleportMode;
     }
 
     private void pauseGameAction(InputAction.CallbackContext obj)
@@ -132,26 +139,38 @@ public class PauseGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if(teleportMode){
-            teleProvider.enabled = true;
-            contMotion.enabled = false;
-            snapTurn.enabled = true;
-            contTurn.enabled = false;
-            if(rightHandControllerGameObject.GetComponent<XRDirectInteractor>()){
-	            Destroy(rightHandControllerGameObject.GetComponent<XRDirectInteractor>());
-            }
-            rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
+        if(teleportMode != teleportModeWas){
+            teleportModeWas = teleportMode;
+            if(teleportMode){
+                teleProvider.enabled = true;
+                contMotion.enabled = false;
+                snapTurn.enabled = true;
+                contTurn.enabled = false;
+                dirInteractor.gameObject.SetActive(false);
+                rayInteractor.gameObject.SetActive(true);
+                /*
+                if(rightHandControllerGameObject.GetComponent<XRDirectInteractor>()){
+                    DestroyImmediate(rightHandControllerGameObject.GetComponent<XRDirectInteractor>());
+                    //destroy will destroy at the end of frame
+                    //as opposed to DestroyImmediate() <- use selectively
+                }
+                rayInteractor = rightHandControllerGameObject.AddComponent(typeof(XRRayInteractor)) as XRRayInteractor;
+                */
 
-        } else {
-            teleProvider.enabled = false;
-            contMotion.enabled = true;
-            snapTurn.enabled = false;
-            contTurn.enabled = true;
-            if(rightHandControllerGameObject.GetComponent<XRRayInteractor>()){
-	            Destroy(rightHandControllerGameObject.GetComponent<XRRayInteractor>());
-            }
-            dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
-        }   
-    }
+            } else {
+                teleProvider.enabled = false;
+                contMotion.enabled = true;
+                snapTurn.enabled = false;
+                contTurn.enabled = true;
+                dirInteractor.gameObject.SetActive(true);
+                rayInteractor.gameObject.SetActive(false);
+                /*
+                if(rightHandControllerGameObject.GetComponent<XRRayInteractor>()){
+                    DestroyImmediate(rightHandControllerGameObject.GetComponent<XRRayInteractor>());
+                }
+                dirInteractor = rightHandControllerGameObject.AddComponent(typeof(XRDirectInteractor)) as XRDirectInteractor;
+                */
+            }   
+        }
+   }
 }
